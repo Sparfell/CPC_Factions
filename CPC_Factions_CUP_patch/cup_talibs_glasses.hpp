@@ -33,29 +33,29 @@
 	class CPC_TRYK_Beard_BK : TRYK_Beard_BK {
 		Scope = 1;
 		ScopeArsenal = 1;
-		identityTypes[] = {"G_CPC_talibs",50};
+		identityTypes[] = {"G_CPC_talibs",60};
 	};
 	class TRYK_Beard_BK2;
 	class CPC_TRYK_Beard_BK2 : TRYK_Beard_BK2 {
 		Scope = 1;
 		ScopeArsenal = 1;
-		identityTypes[] = {"G_CPC_talibs",40};
+		identityTypes[] = {"G_CPC_talibs",50};
 	};
 	class TRYK_Beard_BK3;
 	class CPC_TRYK_Beard_BK3 : TRYK_Beard_BK3 {
 		Scope = 1;
 		ScopeArsenal = 1;
-		identityTypes[] = {"G_CPC_talibs",30};
+		identityTypes[] = {"G_CPC_talibs",40};
 	};
 	class TRYK_Beard_BK4;
 	class CPC_TRYK_Beard_BK4 : TRYK_Beard_BK4 {
 		Scope = 1;
 		ScopeArsenal = 1;
-		identityTypes[] = {"G_CPC_talibs",20};
+		identityTypes[] = {"G_CPC_talibs",30};
 	};
 	class None;
 	class CPC_None :None {
 		Scope = 1;
 		ScopeArsenal = 1;
-		identityTypes[] = {"G_CPC_talibs",50};
+		identityTypes[] = {"G_CPC_talibs",40};
 	}

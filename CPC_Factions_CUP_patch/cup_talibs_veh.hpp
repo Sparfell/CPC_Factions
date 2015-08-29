@@ -41,7 +41,7 @@
 		minFireTime = 10;
 		cost = 100000;
 		asr_ai_level = 6;
-		headgearList[] = {"CPC_TRYK_H_pakol2",0.5,"CPC_TRYK_H_wig",0.2,"CPC_H_Shemag_olive",0.1,"CPC_H_ShemagOpen_tan",0.1,"CPC_H_ShemagOpen_khk",0.1,"",0.4};
+		headgearList[] = {"CPC_TRYK_H_pakol2",0.6,"CPC_TRYK_H_wig",0.2,"CPC_H_Shemag_olive",0.1,"CPC_H_ShemagOpen_tan",0.1,"CPC_H_ShemagOpen_khk",0.1,"",0.3};
 	};
 	
 	class CUP_I_TK_GUE_Soldier: CUP_I_TK_GUE_Soldier_Base
