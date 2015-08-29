@@ -4,7 +4,7 @@ class CfgPatches {
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = {"cba_xeh", "CUP_Creatures_People_Military_DummyInfantrySet", "A3_Characters_F", "TRYK_Uniform", "maa_Uniform", "TRYK_BackPack", "TRYK_Shemaghs", "Kio_Balaclava", "US_ESS_Glasses_tryk", "TRYK_Uniform"};
+		requiredAddons[] = {"CPC_Factions_Main", "cba_xeh", "CUP_Creatures_People_Military_DummyInfantrySet", "A3_Characters_F", "TRYK_Uniform", "maa_Uniform", "TRYK_BackPack", "TRYK_Shemaghs", "Kio_Balaclava", "US_ESS_Glasses_tryk", "TRYK_Uniform"};
 	};
 };
 
