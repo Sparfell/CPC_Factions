@@ -12,7 +12,7 @@
 		{
 			uniformModel = "-";
 			uniformClass = "I_CPC_TALIB_base0_F";
-			containerClass = "Supply80";
+			containerClass = "Supply100";
 			mass = 40;
 		};
 	};
@@ -29,7 +29,7 @@
 		{
 			uniformModel = "-";
 			uniformClass = "I_CPC_TALIB_base1_F";
-			containerClass = "Supply80";
+			containerClass = "Supply100";
 			mass = 40;
 		};
 	};
@@ -46,7 +46,7 @@
 		{
 			uniformModel = "-";
 			uniformClass = "I_CPC_TALIB_base2_F";
-			containerClass = "Supply80";
+			containerClass = "Supply100";
 			mass = 40;
 		};
 	};
