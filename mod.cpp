@@ -1,8 +1,8 @@
 name = "CPC Factions";
-picture = "\CPC_Factions_Main\data\factions.paa";
-logoSmall = "\CPC_Factions_Main\data\factions.paa";
-logo = "\CPC_Factions_Main\data\factions.paa";
-logoOver = "\CPC_Factions_Main\data\factions.paa";
+picture = "\CPC_Factions_Main\data\logo_factions_2.paa";
+logoSmall = "\CPC_Factions_Main\data\logo_factions_2.paa";
+logo = "\CPC_Factions_Main\data\logo_factions_2.paa";
+logoOver = "\CPC_Factions_Main\data\logo_factions_2.paa";
 action = "-";
 tooltipOwned = "CPC Factions";
 dlcColor[] = 
