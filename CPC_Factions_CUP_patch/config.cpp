@@ -37,108 +37,37 @@ class CfgFaces
 	class Default;
 	class Man_A3: Default
 	{
-		class PersianHead_A3_01;
-		class CPC_PersianHead_A3_01 :PersianHead_A3_01
+		class Default;
+		class PersianHead_A3_01 :Default
 		{
-			Scope = 1;
-			ScopeArsenal = 1;
-			identityTypes[] = {"CPC_TAKI_head"};
+			identityTypes[] += {"CPC_TAKI_head"};
 		};
-		class CPC_PersianHead_A3_01a :PersianHead_A3_01
+		class PersianHead_A3_02 :Default
 		{
-			Scope = 1;
-			ScopeArsenal = 1;
-			identityTypes[] = {"CPC_TAKI_head"};
+			identityTypes[] += {"CPC_TAKI_head"};
 		};
-		class CPC_PersianHead_A3_01b :PersianHead_A3_01
+		class PersianHead_A3_03 :Default
 		{
-			Scope = 1;
-			ScopeArsenal = 1;
-			identityTypes[] = {"CPC_TAKI_head"};
+			identityTypes[] += {"CPC_TAKI_head"};
 		};
-		class CPC_PersianHead_A3_01c :PersianHead_A3_01
+		class GreekHead_A3_01;
+		class GreekHead_A3_02 :GreekHead_A3_01
 		{
-			Scope = 1;
-			ScopeArsenal = 1;
-			identityTypes[] = {"CPC_TAKI_head"};
+			identityTypes[] += {"CPC_TAKI_head"};
 		};
-		class GreekHead_A3_02;
-		class CPC_GreekHead_A3_02 :GreekHead_A3_02
+		class GreekHead_A3_03 :GreekHead_A3_01
 		{
-			Scope = 1;
-			ScopeArsenal = 1;
-			identityTypes[] = {"CPC_TAKI_head"};
+			identityTypes[] += {"CPC_TAKI_head"};
 		};
-		class GreekHead_A3_03;
-		class CPC_GreekHead_A3_03 :GreekHead_A3_03
+		class GreekHead_A3_05;
+		class GreekHead_A3_06 :GreekHead_A3_05
 		{
-			Scope = 1;
-			ScopeArsenal = 1;
-			identityTypes[] = {"CPC_TAKI_head"};
+			identityTypes[] += {"CPC_TAKI_head"};
 		};
-		class GreekHead_A3_06;
-		class CPC_GreekHead_A3_06 :GreekHead_A3_06
+		class WhiteHead_01;
+		class WhiteHead_16 :WhiteHead_01
 		{
-			Scope = 1;
-			ScopeArsenal = 1;
-			identityTypes[] = {"CPC_TAKI_head"};
-		};
-		class WhiteHead_16;
-		class CPC_WhiteHead_16 :WhiteHead_16
-		{
-			Scope = 1;
-			ScopeArsenal = 1;
-			identityTypes[] = {"CPC_TAKI_head"};
-		};
-		class PersianHead_A3_02;
-		class CPC_PersianHead_A3_02 :PersianHead_A3_02
-		{
-			Scope = 1;
-			ScopeArsenal = 1;
-			identityTypes[] = {"CPC_TAKI_head"};
-		};
-		class CPC_PersianHead_A3_02a :PersianHead_A3_02
-		{
-			Scope = 1;
-			ScopeArsenal = 1;
-			identityTypes[] = {"CPC_TAKI_head"};
-		};
-		class CPC_PersianHead_A3_02b :PersianHead_A3_02
-		{
-			Scope = 1;
-			ScopeArsenal = 1;
-			identityTypes[] = {"CPC_TAKI_head"};
-		};
-		class CPC_PersianHead_A3_02c :PersianHead_A3_02
-		{
-			Scope = 1;
-			ScopeArsenal = 1;
-			identityTypes[] = {"CPC_TAKI_head"};
-		};
-		class PersianHead_A3_03;
-		class CPC_PersianHead_A3_03 :PersianHead_A3_03
-		{
-			Scope = 1;
-			ScopeArsenal = 1;
-			identityTypes[] = {"CPC_TAKI_head"};
-		};
-		class CPC_PersianHead_A3_03a :PersianHead_A3_03
-		{
-			Scope = 1;
-			ScopeArsenal = 1;
-			identityTypes[] = {"CPC_TAKI_head"};
-		};
-		class CPC_PersianHead_A3_03b :PersianHead_A3_03
-		{
-			Scope = 1;
-			ScopeArsenal = 1;
-			identityTypes[] = {"CPC_TAKI_head"};
-		};
-		class CPC_PersianHead_A3_03c :PersianHead_A3_03
-		{
-			Scope = 1;
-			ScopeArsenal = 1;
-			identityTypes[] = {"CPC_TAKI_head"};
+			identityTypes[] += {"CPC_TAKI_head"};
 		};
 	};
 };

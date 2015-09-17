@@ -1,0 +1,2 @@
+1.01
+- Fix to hide dummy faces in VA.
