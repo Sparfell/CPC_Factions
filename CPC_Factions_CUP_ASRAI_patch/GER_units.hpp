@@ -22,3 +22,7 @@ class CUP_B_GER_Medic : CUP_B_GER_Soldier_01
 {
 	cost = 300000;
 };
+class CUP_B_GER_Fleck_Medic : CUP_B_GER_Medic
+{
+	cost = 300000;
+};
