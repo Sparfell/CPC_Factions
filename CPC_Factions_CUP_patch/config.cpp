@@ -42,11 +42,6 @@ class CfgFaces
 		{
 			identityTypes[] += {"CPC_TAKI_head"};
 		};
-		class GreekHead_A3_05;
-		class GreekHead_A3_06 :GreekHead_A3_05
-		{
-			identityTypes[] += {"CPC_TAKI_head"};
-		};
 		class WhiteHead_01;
 		class WhiteHead_16 :WhiteHead_01
 		{

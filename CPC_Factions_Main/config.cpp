@@ -3,10 +3,10 @@ class CfgMods
 	class Mod_Base;
 	class CPC_Factions : Mod_Base
 	{
-		picture = "\CPC_Factions_Main\data\logo_2_03.paa";
-		logo = "\CPC_Factions_Main\data\logo_2_03.paa";
-		logoOver = "\CPC_Factions_Main\data\logo_2_03.paa";
-		logoSmall = "\CPC_Factions_Main\data\logo_2_03.paa";
+		picture = "CPC\Factions\CPC_Factions_Main\data\logo_2_03.paa";
+		logo = "CPC\Factions\CPC_Factions_Main\data\logo_2_03.paa";
+		logoOver = "CPC\Factions\CPC_Factions_Main\data\logo_2_03.paa";
+		logoSmall = "CPC\Factions\CPC_Factions_Main\data\logo_2_03.paa";
 		tooltipOwned = "CPC Factions";
 		action = "-";
 		dlcColor[] = {0.23,0.39,0.30,1};
