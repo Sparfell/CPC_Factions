@@ -1,2 +1,8 @@
 - Changer la valeur "cost" des unités en fonctions des standard ASRAI :
  150000 = civil ou guerilla ; 300000 = reguliers ; 450000 = officiers, snipers FS.
+
+- CUP-ASRAI compat nvelles unités GER ?
+- CrossAddonPatch
+- visage des takistanais
+- taki militia foulard micro
+- aspect texmat sur chestrigs

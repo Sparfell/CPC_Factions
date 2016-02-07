@@ -4,33 +4,16 @@ class CfgPatches {
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = {"CPC_Factions_Main", "cba_xeh", "CUP_Creatures_People_Military_DummyInfantrySet", "A3_Characters_F", "TRYK_Uniform", "maa_Uniform", "TRYK_BackPack", "TRYK_Shemaghs", "Kio_Balaclava", "US_ESS_Glasses_tryk", "TRYK_Uniform"};
+		requiredAddons[] = {"CPC_Factions_Main", "cba_xeh", "A3_Characters_F", "CUP_Creatures_Military_TakiInsurgents"};
 	};
 };
+#include "CfgWeapons.hpp"
+#include "CfgVehicles.hpp"
 
-class cfgWeapons
-{
-#include "cup_talibs_weap.hpp"
-};
 
-class CfgVehicles
-{
-#include "hide_cup_dummy.hpp"
-#include "cup_talibs_veh.hpp"	
-};
 
-class CfgGlasses
-{
-#include "cup_talibs_glasses.hpp"
-};
 
-class Extended_Init_Eventhandlers
-{
-	class CUP_I_TK_GUE_Soldier_Base
-	{
-		CPC_Factions_CUP_Patch_init = "if (local (_this select 0)) then {[(_this select 0), [], []] call BIS_fnc_unitHeadgear;};";
-	}
-};
+
 
 class CfgFaces
 {
@@ -71,3 +54,14 @@ class CfgFaces
 		};
 	};
 };
+
+// Je garde ce qui est en dessous comme note.
+/*
+class Extended_Init_Eventhandlers
+{
+	class CUP_I_TK_GUE_Soldier_Base
+	{
+		CPC_Factions_CUP_Patch_init = "if (local (_this select 0)) then {[(_this select 0), [], []] call BIS_fnc_unitHeadgear;};";
+	}
+};
+*/

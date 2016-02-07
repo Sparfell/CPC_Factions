@@ -13,5 +13,8 @@ class CfgVehicles
 {
 #include "USMC_units.hpp"
 #include "TakiArmy_units.hpp"
-#include "GER_units.hpp"	
+#include "GER_units.hpp"
+#include "TakiMilitia_units.hpp"
+#include "TakyInsurgent_units.hpp"
+#include "NAPA_units.hpp"	
 };
