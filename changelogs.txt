@@ -1,3 +1,9 @@
 1.01
 - Fix to hide dummy faces in VA.
 - New logo by Weldrid
+1.2
+- Modifications for CUP takistani locals removed.
+- More possible faces for CUP takistani locals units
+- New "Assets PBO" (contains some more variants of CUP chestrigs)
+- New "CrossAddonPatch" PBO (feature = attributes RHS PSO modelOptics to CUP SVD)
+- CUP_ASRAI_patch updated

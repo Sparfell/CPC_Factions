@@ -1,3 +1,0 @@
-hého yoyo
-
-Hého yuyu
