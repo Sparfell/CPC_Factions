@@ -4,6 +4,8 @@
 		side = 0;
 		scope = 1;
 		scopeCurator = 0;
+		asr_ai_level = 6;
+		cost = 150000;
 		dlc = "CPC_Factions";
 		author = "CPC Faction";
 		faction = "CPC_O_NPFD";
@@ -61,6 +63,8 @@
 		displayName = "Chef de groupe";
 		scope = 2;
 		scopeCurator = 2;
+		asr_ai_level = 5;
+		cost = 300000;
 		icon = "iconManLeader";
 		headgearList[] =
 		{
@@ -92,6 +96,8 @@
 		displayName = "Sniper";
 		scope = 2;
 		scopeCurator = 2;
+		asr_ai_level = 10;
+		cost = 300000;
 		linkedItems[] = {"CUP_V_O_SLA_Carrier_Belt02","CUP_TK_NeckScarf","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"CUP_V_O_SLA_Carrier_Belt02","CUP_TK_NeckScarf","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		weapons[] = {"CUP_srifle_CZ550","Throw","Put"};

@@ -117,6 +117,19 @@ class cfgWeapons
 			};
 		};
 	};
+	class CPC_Duala_arifle_FNFAL_railed_CWS: CUP_arifle_FNFAL_railed
+	{
+		scope = 1;
+		author = "CPC Faction";
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot = "CUP_PicatinnyTopMountFNFAL";
+				item = "CUP_optic_CWS";
+			};
+		};
+	};
 	class CUP_launch_RPG7V;
 	class CPC_Duala_launch_RPG7V_PGO7V: CUP_launch_RPG7V
 	{

@@ -3,7 +3,9 @@ class CfgPatches {
 	class CPC_Factions_Duala {
 		units[] = {
 			"CPC_Duala_B_GFD_soldier_1",
+			"CPC_Duala_B_GFD_soldier_2",
 			"CPC_Duala_B_GFD_soldier_light",
+			"CPC_Duala_B_GFD_soldier_night",
 			"CPC_Duala_B_GFD_soldier_GL",
 			"CPC_Duala_B_GFD_soldier_M",
 			"CPC_Duala_B_GFD_soldier_LAT",
