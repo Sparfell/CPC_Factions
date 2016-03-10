@@ -29,7 +29,7 @@ class cfgWeapons
 			armor = 0;
 			passThrough = 1.0;
 			mass = 80;
-			#include "\CUP\Creatures\hitpoints_vestheavy.h"
+			#include "\CPC\Factions\hitpoints_vestheavy.h"
 		};
 	};
 	
@@ -71,8 +71,8 @@ class cfgWeapons
 	
 	class CPC_Duala_Uniform_NPFD_1: ItemCore
 	{
-		scope = 1;
-		scopeArsenal = 0;
+		scope = 2;
+		scopeArsenal = 2;
 		dlc = "CPC_Factions";
 		author = "CPC Faction";
 		displayName = "NPFD Uniform";

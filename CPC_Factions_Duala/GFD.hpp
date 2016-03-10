@@ -18,7 +18,7 @@
 			"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_SLA\data\sla_desert_co.paa"
 		};
 		icon = "iconMan";
-		#include "\CUP\Creatures\hitpoints_uniform_none.h"
+		#include "\CPC\Factions\hitpoints_uniform_none.h"
 	};
 	class CPC_Duala_B_GFD_soldier_1 : CPC_Duala_B_GFD_soldier_base
 	{

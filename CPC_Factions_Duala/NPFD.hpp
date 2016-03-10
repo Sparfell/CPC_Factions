@@ -15,7 +15,8 @@
 		Items[] = {"FirstAidKit"};
 		RespawnItems[] = {"FirstAidKit"};
 		hiddenSelectionsTextures[] = {
-			"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_SLA\data\partisans\part_ttsko_full_co.paa"
+//			"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_SLA\data\partisans\part_ttsko_full_co.paa"
+			"\CPC\Factions\CPC_Factions_Duala\Data\NPFD_uniform.paa"
 		};
 		icon = "iconMan";
 		headgearList[] =
@@ -28,7 +29,7 @@
 			"CUP_H_FR_BandanaGreen",1,
 			"H_Bandanna_camo",1
 		};
-		#include "\CUP\Creatures\hitpoints_uniform_none.h"
+		#include "\CPC\Factions\hitpoints_uniform_none.h"
 	};
 	class CPC_Duala_O_NPFD_soldier_1 : CPC_Duala_O_NPFD_soldier_base
 	{
