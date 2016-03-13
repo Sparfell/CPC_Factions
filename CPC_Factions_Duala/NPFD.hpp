@@ -59,7 +59,7 @@
 		weapons[] = {"CUP_arifle_AKS","Throw","Put"};
 		respawnWeapons[] = {"CUP_arifle_AKS","Throw","Put"};
 	};
-	class CPC_Duala_O_NPFD_soldier_4 : CPC_Duala_O_NPFD_soldier_1
+	class CPC_Duala_O_NPFD_soldier_5 : CPC_Duala_O_NPFD_soldier_1
 	{
 		displayName = "Rifleman (Sa-58)";
 		linkedItems[] = {"CPC_Vest_Chestrig_1_Brown","H_Booniehat_oli","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
