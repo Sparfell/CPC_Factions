@@ -1,3 +1,12 @@
+1.4
+- Various config improvements for Duala Factions
+- New units for GFD : Rifleman M4 and rifleman night
+- New uniform texture for NPFD by Woami
+
+1.3
+- Added two new factions (meant to be used with Duala or other african maps).
+- Added a new variant for a CUP Carrier Vest.
+
 1.2
 - Modifications for CUP takistani locals removed.
 - More possible faces for CUP takistani locals units

@@ -59,6 +59,17 @@
 		weapons[] = {"CUP_arifle_AKS","Throw","Put"};
 		respawnWeapons[] = {"CUP_arifle_AKS","Throw","Put"};
 	};
+	class CPC_Duala_O_NPFD_soldier_4 : CPC_Duala_O_NPFD_soldier_1
+	{
+		displayName = "Rifleman (Sa-58)";
+		linkedItems[] = {"CPC_Vest_Chestrig_1_Brown","H_Booniehat_oli","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"CPC_Vest_Chestrig_1_Brown","H_Booniehat_oli","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		weapons[] = {"CUP_arifle_Sa58P_des","Throw","Put"};
+		respawnWeapons[] = {"CUP_arifle_Sa58P_des","Throw","Put"};
+		magazines[] = {"CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		respawnMagazines[] = {"CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+
+	};
 	class CPC_Duala_O_NPFD_soldier_TL : CPC_Duala_O_NPFD_soldier_base
 	{
 		displayName = "Chef de groupe";

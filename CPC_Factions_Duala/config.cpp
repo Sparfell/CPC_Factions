@@ -39,6 +39,7 @@ class CfgPatches {
 			"CPC_Duala_O_NPFD_soldier_1",
 			"CPC_Duala_O_NPFD_soldier_2",
 			"CPC_Duala_O_NPFD_soldier_3",
+			"CPC_Duala_O_NPFD_soldier_4",
 			"CPC_Duala_O_NPFD_soldier_TL",
 			"CPC_Duala_O_NPFD_soldier_AR",
 			"CPC_Duala_O_NPFD_soldier_sniper",
