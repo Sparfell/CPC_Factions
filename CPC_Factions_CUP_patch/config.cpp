@@ -12,9 +12,6 @@ class CfgPatches {
 
 
 
-
-
-
 class CfgFaces
 {
 	class Default;
