@@ -5,6 +5,11 @@
 		scope = 1;
 		scopeCurator = 0;
 		asr_ai_level = 4;
+		accuracy = 3.9;
+		sensitivity = 3;
+		threat[] = { 1, 0.1, 0.1 };
+		camouflage = 1.4;
+		minFireTime = 7;
 		cost = 300000;
 		dlc = "CPC_Factions";
 		author = "CPC Faction";
@@ -204,8 +209,8 @@
 		icon = "iconManOfficer";
 		asr_ai_level = 3;
 		cost = 450000;
-		linkedItems[] = {"CPC_Vest_Chestrig_2_Tan","CUP_H_SLA_Beret","rhs_googles_black","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"CPC_Vest_Chestrig_2_Tan","CUP_H_SLA_Beret","rhs_googles_black","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"CPC_Vest_Chestrig_2_Tan","CUP_H_SLA_Beret","G_Shades_Black","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"CPC_Vest_Chestrig_2_Tan","CUP_H_SLA_Beret","G_Shades_Black","ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		weapons[] = {"CUP_arifle_M4A1","CUP_hgun_M9","binocular","Throw","Put"};
 		respawnWeapons[] = {"CUP_arifle_M4A1","CUP_hgun_M9","binocular","Throw","Put"};
 		magazines[] = {"30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","SmokeShellBlue","SmokeShellBlue","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};

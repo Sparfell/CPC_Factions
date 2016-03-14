@@ -51,6 +51,7 @@ class CfgPatches {
 			"CPC_Duala_O_NPFD_soldier_GL",
 			"CPC_Duala_O_NPFD_soldier_4",
 			"CPC_Duala_O_NPFD_soldier_AA",
+			"CPC_Duala_O_NPFD_soldier_officer",
 			"CPC_Duala_O_NPFD_Datsun",
 			"CPC_Duala_O_NPFD_Datsun_PK",
 			"CPC_Duala_O_NPFD_Ural_1",
@@ -62,7 +63,8 @@ class CfgPatches {
 			"CPC_Duala_O_NPFD_Ural_ZU23"
 		};
 		weapons[] = {
-			"CPC_Duala_Vest_Carrier_Tan"
+			"CPC_Duala_Vest_Carrier_Tan",
+			"CPC_Duala_Uniform_NPFD_1"
 		};
 		requiredVersion = 0.1;
 		requiredAddons[] = {"CPC_Factions_Main", "cba_xeh", "A3_Characters_F","CUP_Creatures_Military_RACS","CUP_Creatures_Military_SLA","CUP_Weapons_Ammunition","CUP_Weapons_M16","CUP_Weapons_FNFAL","CUP_Weapons_Backpacks","CUP_Weapons_RPG7"};

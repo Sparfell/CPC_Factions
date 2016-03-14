@@ -1,6 +1,7 @@
 1.4
 - Various config improvements for Duala Factions
 - New units for GFD : Rifleman M4 and rifleman night
+- New units for NPFD : Rifleman Sa-58 and officer
 - New uniform texture for NPFD by Woami
 
 1.3

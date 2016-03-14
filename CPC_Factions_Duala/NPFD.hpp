@@ -5,6 +5,11 @@
 		scope = 1;
 		scopeCurator = 0;
 		asr_ai_level = 6;
+		accuracy = 2.3;
+		sensitivity = 3;
+		threat[] = { 1, 0.1, 0.1 };
+		camouflage = 1.1;
+		minFireTime = 7;
 		cost = 150000;
 		dlc = "CPC_Factions";
 		author = "CPC Faction";
@@ -72,7 +77,7 @@
 	};
 	class CPC_Duala_O_NPFD_soldier_TL : CPC_Duala_O_NPFD_soldier_base
 	{
-		displayName = "Chef de groupe";
+		displayName = "Team Leader";
 		scope = 2;
 		scopeCurator = 2;
 		asr_ai_level = 5;
@@ -218,6 +223,25 @@
 		respawnWeapons[] = {"CUP_arifle_AK47","CUP_launch_9K32Strela","Throw","Put"};
 		magazines[] = {"CUP_Strela_2_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		respawnMagazines[] = {"CUP_Strela_2_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+	};
+	class CPC_Duala_O_NPFD_soldier_officer : CPC_Duala_O_NPFD_soldier_base
+	{
+		displayName = "Officer";
+		scope = 2;
+		scopeCurator = 2;
+		asr_ai_level = 5;
+		cost = 450000;
+		icon = "iconManLeader";
+		headgearList[] =
+		{
+			"H_Beret_blk",1
+		};
+		linkedItems[] = {"CUP_V_O_TK_OfficerBelt","H_Beret_blk","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"CUP_V_O_TK_OfficerBelt","H_Beret_blk","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		weapons[] = {"CUP_arifle_Sa58P","CUP_hgun_Makarov","Binocular","Throw","Put"};
+		respawnWeapons[] = {"CUP_arifle_Sa58P","CUP_hgun_Makarov","Binocular","Throw","Put"};
+		magazines[] = {"CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M","SmokeShell","SmokeShell","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M"};
+		respawnMagazines[] = {"CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M","SmokeShell","SmokeShell","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M"};
 	};
 	
 	
