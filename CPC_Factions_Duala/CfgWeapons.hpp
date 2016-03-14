@@ -144,4 +144,37 @@ class cfgWeapons
 			};
 		};
 	};
+	class H_Booniehat_indp;
+	class CPC_Duala_Booniehat_NPFD : H_Booniehat_indp
+	{
+		scope = 1;
+		author = "CPC Faction" ;
+		displayName = "Chapeau de brousse (NPFD)";
+		picture = "\a3\characters_f\data\ui\icon_h_booniehat_mcamo_ca.paa";
+		model = "\A3\Characters_F\Common\booniehat.p3d";
+		hiddenSelectionsTextures[] = {"CPC\Factions\CPC_Factions_Duala\data\NPFD_Booniehat.paa"};
+		allowedFacewear[] = {"G_Tactical_Clear", "G_Combat", "G_Lowprofile"};
+		
+		class ItemInfo : ItemInfo
+		{
+			uniformModel = "A3\Characters_F\Common\booniehat.p3d";
+		};
+	};
+	class H_MilCap_dgtl;
+	class CPC_Duala_Cappatrol_NPFD : H_MilCap_dgtl;
+	{
+		scope = 1;
+		author = "CPC Faction";
+		displayName = "képi (NPFD)";
+		picture = "\a3\characters_f\data\ui\icon_h_cap_patrol_ocamo_ca.paa";
+		model = "\A3\Characters_F\Common\cappatrol.p3d";
+		hiddenSelections[] = {"camo1","camo2"};
+		hiddenSelectionsTextures[] = {"CPC\Factions\CPC_Factions_Duala\data\NPFD_cappatrol.paa"};
+		allowedFacewear[] = {"G_Tactical_Clear", "G_Combat", "G_Lowprofile"};
+		
+		class ItemInfo : ItemInfo
+		{
+			uniformModel = "\A3\Characters_F\Common\cappatrol.p3d";
+		};
+	};
 };

@@ -28,7 +28,10 @@
 		{
 			"",1,
 			"H_Booniehat_oli",1,
+			"CPC_Duala_Booniehat_NPFD",1,
+			"CPC_Duala_Cappatrol_NPFD",1,
 			"CUP_H_SLA_BeretRed",1,
+			"H_Beret_blk",1,
 			"H_Bandanna_khk",1,
 			"H_Booniehat_khk",1,
 			"CUP_H_FR_BandanaGreen",1,
@@ -41,8 +44,8 @@
 		displayName = "Rifleman (AK47)";
 		scope = 2;
 		scopeCurator = 2;
-		linkedItems[] = {"CUP_V_I_Carrier_Belt","CUP_H_SLA_BeretRed","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"CUP_V_I_Carrier_Belt","CUP_H_SLA_BeretRed","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"CUP_V_I_Carrier_Belt","H_Beret_blk","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"CUP_V_I_Carrier_Belt","H_Beret_blk","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		weapons[] = {"CUP_arifle_AK47","Throw","Put"};
 		respawnWeapons[] = {"CUP_arifle_AK47","Throw","Put"};
 		magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
@@ -51,8 +54,8 @@
 	class CPC_Duala_O_NPFD_soldier_2 : CPC_Duala_O_NPFD_soldier_1
 	{
 		displayName = "Rifleman (AKM)";
-		linkedItems[] = {"CUP_V_I_Carrier_Belt","H_Booniehat_oli","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"CUP_V_I_Carrier_Belt","H_Booniehat_oli","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"CUP_V_I_Carrier_Belt","CPC_Duala_Booniehat_NPFD","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"CUP_V_I_Carrier_Belt","CPC_Duala_Booniehat_NPFD","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		weapons[] = {"CUP_arifle_AKM","Throw","Put"};
 		respawnWeapons[] = {"CUP_arifle_AKM","Throw","Put"};
 	};
@@ -101,8 +104,8 @@
 		scopeCurator = 2;
 		icon = "iconManMG";
 		backpack = "CPC_Duala_Backpack_NPFD_AR";
-		linkedItems[] = {"CPC_Vest_Chestrig_1_Brown","H_Booniehat_khk","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"CPC_Vest_Chestrig_1_Brown","H_Booniehat_khk","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"CPC_Vest_Chestrig_1_Brown","CPC_Duala_Booniehat_NPFD","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"CPC_Vest_Chestrig_1_Brown","CPC_Duala_Booniehat_NPFD","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		weapons[] = {"CUP_arifle_RPK74","Throw","Put"};
 		respawnWeapons[] = {"CUP_arifle_RPK74","Throw","Put"};
 		magazines[] = {"CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5"};
