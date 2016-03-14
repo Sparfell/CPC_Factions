@@ -87,6 +87,43 @@ class cfgWeapons
 			mass = 20;
 		};
 	};
+	class H_Booniehat_indp;
+	class CPC_Duala_Booniehat_NPFD : H_Booniehat_indp
+	{
+		scope = 2;
+		scopeArsenal = 2;
+		dlc = "CPC_Factions";
+		author = "CPC Faction" ;
+		displayName = "Booniehat (NPFD)";
+		picture = "\a3\characters_f\data\ui\icon_h_booniehat_mcamo_ca.paa";
+		model = "\A3\Characters_F\Common\booniehat.p3d";
+		hiddenSelectionsTextures[] = {"CPC\Factions\CPC_Factions_Duala\data\NPFD_Booniehat.paa"};
+		allowedFacewear[] = {"G_Tactical_Clear", "G_Combat", "G_Lowprofile"};
+		
+		class ItemInfo : ItemInfo
+		{
+			uniformModel = "A3\Characters_F\Common\booniehat.p3d";
+		};
+	};
+	class H_MilCap_dgtl;
+	class CPC_Duala_Cappatrol_NPFD : H_MilCap_dgtl
+	{
+		scope = 2;
+		scopeArsenal = 2;
+		dlc = "CPC_Factions";
+		author = "CPC Faction";
+		displayName = "Military Cap (NPFD)";
+		picture = "\a3\characters_f\data\ui\icon_h_cap_patrol_ocamo_ca.paa";
+		model = "\A3\Characters_F\Common\cappatrol.p3d";
+		hiddenSelections[] = {"camo1","camo2"};
+		hiddenSelectionsTextures[] = {"CPC\Factions\CPC_Factions_Duala\data\NPFD_cappatrol.paa"};
+		allowedFacewear[] = {"G_Tactical_Clear", "G_Combat", "G_Lowprofile"};
+		
+		class ItemInfo : ItemInfo
+		{
+			uniformModel = "\A3\Characters_F\Common\cappatrol.p3d";
+		};
+	};
 	
 	class CUP_arifle_M4A1_black;
 	class CPC_Duala_arifle_M4A1_black_ACOG: CUP_arifle_M4A1_black
@@ -142,39 +179,6 @@ class cfgWeapons
 				slot = "CowsSlot";
 				item = "CUP_optic_PGO7V2";
 			};
-		};
-	};
-	class H_Booniehat_indp;
-	class CPC_Duala_Booniehat_NPFD : H_Booniehat_indp
-	{
-		scope = 1;
-		author = "CPC Faction" ;
-		displayName = "Chapeau de brousse (NPFD)";
-		picture = "\a3\characters_f\data\ui\icon_h_booniehat_mcamo_ca.paa";
-		model = "\A3\Characters_F\Common\booniehat.p3d";
-		hiddenSelectionsTextures[] = {"CPC\Factions\CPC_Factions_Duala\data\NPFD_Booniehat.paa"};
-		allowedFacewear[] = {"G_Tactical_Clear", "G_Combat", "G_Lowprofile"};
-		
-		class ItemInfo : ItemInfo
-		{
-			uniformModel = "A3\Characters_F\Common\booniehat.p3d";
-		};
-	};
-	class H_MilCap_dgtl;
-	class CPC_Duala_Cappatrol_NPFD : H_MilCap_dgtl;
-	{
-		scope = 1;
-		author = "CPC Faction";
-		displayName = "képi (NPFD)";
-		picture = "\a3\characters_f\data\ui\icon_h_cap_patrol_ocamo_ca.paa";
-		model = "\A3\Characters_F\Common\cappatrol.p3d";
-		hiddenSelections[] = {"camo1","camo2"};
-		hiddenSelectionsTextures[] = {"CPC\Factions\CPC_Factions_Duala\data\NPFD_cappatrol.paa"};
-		allowedFacewear[] = {"G_Tactical_Clear", "G_Combat", "G_Lowprofile"};
-		
-		class ItemInfo : ItemInfo
-		{
-			uniformModel = "\A3\Characters_F\Common\cappatrol.p3d";
 		};
 	};
 };
