@@ -1,11 +1,6 @@
 
 class CfgPatches {
-	class CPC_Factions_Duala {
-		units[] = {};
-		weapons[] = {};
-		requiredVersion = 0.1;
-		requiredAddons[] = {"CPC_Factions_Main"};
-	};
+
 	class CPC_Factions_Afrique {
 		units[] = {
 			"CPC_Duala_B_GFD_soldier_1",
@@ -76,6 +71,12 @@ class CfgPatches {
 		};
 		requiredVersion = 0.1;
 		requiredAddons[] = {"CPC_Factions_Main", "cba_xeh", "A3_Characters_F","CUP_Creatures_Military_RACS","CUP_Creatures_Military_SLA","CUP_Weapons_Ammunition","CUP_Weapons_M16","CUP_Weapons_FNFAL","CUP_Weapons_Backpacks","CUP_Weapons_RPG7"};
+	};
+	class CPC_Factions_Duala {
+		units[] = {};
+		weapons[] = {};
+		requiredVersion = 0.1;
+		requiredAddons[] = {"CPC_Factions_Main"};
 	};
 };
 
