@@ -13,7 +13,7 @@ class cfgWeapons
 		author = "CPC Faction";
 		displayName = "RACS Carrier Vest (Variant, no radio)";
 		picture = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Germany\data\ui\icon_v_carrier_vest_ca.paa";
-		model = "CPC\Factions\CPC_Factions_Duala\CPC_Duala_CarrierVest2.p3d";
+		model = "CPC\Factions\CPC_Factions_Afrique\CPC_Afrique_CarrierVest2.p3d";
 		hiddenSelectionsTextures[] = {
 			"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_racs\data\racs_tex1_co.paa",
 			"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_racs\data\racs_tex2_co.paa"
@@ -25,7 +25,7 @@ class cfgWeapons
 				"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_racs\data\racs_tex2_co.paa"
 			};
 			containerClass = "Supply90";
-			uniformModel = "CPC\Factions\CPC_Factions_Duala\CPC_Duala_CarrierVest2.p3d";
+			uniformModel = "CPC\Factions\CPC_Factions_Afrique\CPC_Afrique_CarrierVest2.p3d";
 			armor = 0;
 			passThrough = 1.0;
 			mass = 80;
@@ -97,7 +97,7 @@ class cfgWeapons
 		displayName = "Booniehat (NPFD)";
 		picture = "\a3\characters_f\data\ui\icon_h_booniehat_mcamo_ca.paa";
 		model = "\A3\Characters_F\Common\booniehat.p3d";
-		hiddenSelectionsTextures[] = {"CPC\Factions\CPC_Factions_Duala\data\NPFD_Booniehat.paa"};
+		hiddenSelectionsTextures[] = {"CPC\Factions\CPC_Factions_Afrique\data\NPFD_Booniehat.paa"};
 		allowedFacewear[] = {"G_Tactical_Clear", "G_Combat", "G_Lowprofile"};
 		
 		class ItemInfo : ItemInfo
@@ -116,7 +116,7 @@ class cfgWeapons
 		picture = "\a3\characters_f\data\ui\icon_h_cap_patrol_ocamo_ca.paa";
 		model = "\A3\Characters_F\Common\cappatrol.p3d";
 		hiddenSelections[] = {"camo1","camo2"};
-		hiddenSelectionsTextures[] = {"CPC\Factions\CPC_Factions_Duala\data\NPFD_cappatrol.paa"};
+		hiddenSelectionsTextures[] = {"CPC\Factions\CPC_Factions_Afrique\data\NPFD_cappatrol.paa"};
 		allowedFacewear[] = {"G_Tactical_Clear", "G_Combat", "G_Lowprofile"};
 		
 		class ItemInfo : ItemInfo

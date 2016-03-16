@@ -1,6 +1,12 @@
 
 class CfgPatches {
 	class CPC_Factions_Duala {
+		units[] = {};
+		weapons[] = {};
+		requiredVersion = 0.1;
+		requiredAddons[] = {"CPC_Factions_Main"};
+	};
+	class CPC_Factions_Afrique {
 		units[] = {
 			"CPC_Duala_B_GFD_soldier_1",
 			"CPC_Duala_B_GFD_soldier_2",
@@ -79,7 +85,7 @@ class CfgFactionClasses
 	{
 		displayName = "GFD";
 		author = "CPC Faction";
-		icon = "CPC\Factions\CPC_Factions_Duala\data\icon_flag_GFD.paa";
+		icon = "CPC\Factions\CPC_Factions_Afrique\data\icon_flag_GFD.paa";
 		priority = 1;
 		side = 1;
 	};
@@ -87,7 +93,7 @@ class CfgFactionClasses
 	{
 		displayName = "NPFD";
 		author = "CPC Faction";
-		icon = "CPC\Factions\CPC_Factions_Duala\data\icon_flag_GFD.paa";
+		icon = "CPC\Factions\CPC_Factions_Afrique\data\icon_flag_GFD.paa";
 		priority = 1;
 		side = 0;
 	};

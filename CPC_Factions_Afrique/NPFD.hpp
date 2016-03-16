@@ -21,7 +21,7 @@
 		RespawnItems[] = {"FirstAidKit"};
 		hiddenSelectionsTextures[] = {
 //			"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_SLA\data\partisans\part_ttsko_full_co.paa"
-			"\CPC\Factions\CPC_Factions_Duala\Data\NPFD_uniform.paa"
+			"\CPC\Factions\CPC_Factions_Afrique\Data\NPFD_uniform.paa"
 		};
 		icon = "iconMan";
 		headgearList[] =

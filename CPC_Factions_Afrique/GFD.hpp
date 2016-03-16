@@ -358,7 +358,7 @@
 		faction = "CPC_B_GFD";
 		crew = "CPC_Duala_B_GFD_soldier_HeliPilot";
 		typicalCargo[] = {"CPC_Duala_B_GFD_soldier_1","CPC_Duala_B_GFD_soldier_1","CPC_Duala_B_GFD_soldier_GL","CPC_Duala_B_GFD_soldier_TL"};
-		hiddenSelectionsTextures[] = {"CPC\Factions\CPC_Factions_Duala\data\330_skin00x_racs.paa"};
+		hiddenSelectionsTextures[] = {"CPC\Factions\CPC_Factions_Afrique\data\330_skin00x_racs.paa"};
 	};
 	class CUP_UH1H_base;
 	class CPC_Duala_B_GFD_UH1H : CUP_UH1H_base
