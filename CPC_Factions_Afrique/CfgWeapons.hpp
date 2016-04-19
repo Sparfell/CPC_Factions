@@ -77,7 +77,7 @@ class cfgWeapons
 		author = "CPC Faction";
 		displayName = "NPFD Uniform";
 		allowedSlots[] = { BACKPACK_SLOT };
-		picture = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_SLA\data\ui\icon_u_o_tk_greens_ca.paa";
+		picture = "\CPC\Factions\CPC_Factions_Afrique\data\UI\NPFD_Uniform_Africa.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d"; /// how does the uniform look when put on ground
 		class ItemInfo : UniformItem
 		{
@@ -87,6 +87,64 @@ class cfgWeapons
 			mass = 20;
 		};
 	};
+	
+	class CPC_Duala_Clothes_Pirate_1: ItemCore
+	{
+		scope = 2;
+		scopeArsenal = 2;
+		dlc = "CPC_Factions";
+		author = "CPC Faction";
+		displayName = "Pirate Clothes";
+		allowedSlots[] = { BACKPACK_SLOT };
+		picture = "\CPC\Factions\CPC_Factions_Afrique\data\UI\Pirate_uniform_Africa.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d"; /// how does the uniform look when put on ground
+		class ItemInfo : UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = CPC_Duala_I_pirate_base_1;
+			containerClass = Supply30;
+			mass = 30;
+		};
+	};
+
+	class CPC_Duala_Clothes_Pirate_2: ItemCore
+	{
+		scope = 2;
+		scopeArsenal = 2;
+		dlc = "CPC_Factions";
+		author = "CPC Faction";
+		displayName = "Pirate Clothes";
+		allowedSlots[] = { BACKPACK_SLOT };
+		picture = "\CPC\Factions\CPC_Factions_Afrique\data\UI\Pirate_uniform_Africa.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d"; /// how does the uniform look when put on ground
+		class ItemInfo : UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = CPC_Duala_I_pirate_base_2;
+			containerClass = Supply30;
+			mass = 30;
+		};
+	};	
+	
+	class CPC_Duala_Clothes_Pirate_3: ItemCore
+	{
+		scope = 2;
+		scopeArsenal = 2;
+		dlc = "CPC_Factions";
+		author = "CPC Faction";
+		displayName = "Pirate Clothes";
+		allowedSlots[] = { BACKPACK_SLOT };
+		picture = "\CPC\Factions\CPC_Factions_Afrique\data\UI\Pirate_uniform_Africa.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d"; /// how does the uniform look when put on ground
+		class ItemInfo : UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = CPC_Duala_I_pirate_base_3;
+			containerClass = Supply30;
+			mass = 30;
+		};
+	};	
+	
 	class H_Booniehat_indp;
 	class CPC_Duala_Booniehat_NPFD : H_Booniehat_indp
 	{
@@ -95,7 +153,7 @@ class cfgWeapons
 		dlc = "CPC_Factions";
 		author = "CPC Faction" ;
 		displayName = "Booniehat (NPFD)";
-		picture = "\a3\characters_f\data\ui\icon_h_booniehat_mcamo_ca.paa";
+		picture = "\CPC\Factions\CPC_Factions_Afrique\data\UI\Booniehat_Africa.paa";
 		model = "\A3\Characters_F\Common\booniehat.p3d";
 		hiddenSelectionsTextures[] = {"CPC\Factions\CPC_Factions_Afrique\data\NPFD_Booniehat.paa"};
 		allowedFacewear[] = {"G_Tactical_Clear", "G_Combat", "G_Lowprofile"};
@@ -105,23 +163,36 @@ class cfgWeapons
 			uniformModel = "A3\Characters_F\Common\booniehat.p3d";
 		};
 	};
-	class H_MilCap_dgtl;
-	class CPC_Duala_Cappatrol_NPFD : H_MilCap_dgtl
+
+	class HeadgearItem ;
+	class CPC_Duala_Cappatrol_NPFD : ItemCore 
 	{
 		scope = 2;
 		scopeArsenal = 2;
 		dlc = "CPC_Factions";
 		author = "CPC Faction";
 		displayName = "Military Cap (NPFD)";
-		picture = "\a3\characters_f\data\ui\icon_h_cap_patrol_ocamo_ca.paa";
-		model = "\A3\Characters_F\Common\cappatrol.p3d";
-		hiddenSelections[] = {"camo1","camo2"};
+		picture = "\CPC\Factions\CPC_Factions_Afrique\data\UI\cappatrol_Africa.paa";
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_SLA\CUP_H_SLA_SLhat.p3d";
+		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"CPC\Factions\CPC_Factions_Afrique\data\NPFD_cappatrol.paa"};
-		allowedFacewear[] = {"G_Tactical_Clear", "G_Combat", "G_Lowprofile"};
 		
-		class ItemInfo : ItemInfo
-		{
-			uniformModel = "\A3\Characters_F\Common\cappatrol.p3d";
+		class ItemInfo : HeadgearItem {
+			mass = 10;
+			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_SLA\CUP_H_SLA_SLhat.p3d";hiddenSelections[] = {"camo"};
+			hiddenSelectionsTextures[] = {"CPC\Factions\CPC_Factions_Afrique\data\NPFD_cappatrol.paa"};
+			allowedSlots[] = {801, 901, 701, 605};
+			modelSides[] = {0, 3};
+			armor = 5;
+			passThrough = 0.5;
+			
+			class HitpointsProtectionInfo {
+				class Head {
+					hitpointName = "HitHead";
+					armor = 6;
+					passThrough = 0.5;
+				};
+			};
 		};
 	};
 	

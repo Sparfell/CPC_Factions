@@ -68,6 +68,9 @@ class CfgPatches {
 			"CPC_Duala_Uniform_NPFD_1",
 			"CPC_Duala_Booniehat_NPFD",
 			"CPC_Duala_Cappatrol_NPFD"
+			"CPC_Duala_Clothes_Pirate_1"
+			"CPC_Duala_Clothes_Pirate_2"
+			"CPC_Duala_Clothes_Pirate_3"
 		};
 		requiredVersion = 0.1;
 		requiredAddons[] = {"CPC_Factions_Main", "cba_xeh", "A3_Characters_F","CUP_Creatures_Military_RACS","CUP_Creatures_Military_SLA","CUP_Weapons_Ammunition","CUP_Weapons_M16","CUP_Weapons_FNFAL","CUP_Weapons_Backpacks","CUP_Weapons_RPG7"};

@@ -200,6 +200,7 @@ class CfgVehicles
 	
 #include "GFD.hpp"
 #include "NPFD.hpp"
+#include "Pirate.hpp"
 
 };
 	
