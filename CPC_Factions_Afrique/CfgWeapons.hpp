@@ -156,8 +156,7 @@ class cfgWeapons
 		picture = "\CPC\Factions\CPC_Factions_Afrique\data\UI\Booniehat_Africa.paa";
 		model = "\A3\Characters_F\Common\booniehat.p3d";
 		hiddenSelectionsTextures[] = {"CPC\Factions\CPC_Factions_Afrique\data\NPFD_Booniehat.paa"};
-		allowedFacewear[] = {"G_Tactical_Clear", "G_Combat", "G_Lowprofile"};
-		
+		allowedFacewear[] = {};
 		class ItemInfo : ItemInfo
 		{
 			uniformModel = "A3\Characters_F\Common\booniehat.p3d";
@@ -179,7 +178,8 @@ class cfgWeapons
 		
 		class ItemInfo : HeadgearItem {
 			mass = 10;
-			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_SLA\CUP_H_SLA_SLhat.p3d";hiddenSelections[] = {"camo"};
+			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_SLA\CUP_H_SLA_SLhat.p3d";
+			hiddenSelections[] = {"camo"};
 			hiddenSelectionsTextures[] = {"CPC\Factions\CPC_Factions_Afrique\data\NPFD_cappatrol.paa"};
 			allowedSlots[] = {801, 901, 701, 605};
 			modelSides[] = {0, 3};

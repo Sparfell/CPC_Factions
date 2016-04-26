@@ -1,4 +1,4 @@
-	class B_Soldier_base_F;
+	
 	class CPC_Duala_I_pirate_base_1 : B_Soldier_base_F
 	{
 		side = 0;
