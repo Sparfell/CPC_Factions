@@ -400,3 +400,66 @@
 			"CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_open_co.paa"
 		};
 	};
+	class CPC_Duala_O_NPFD_BTR40 : CUP_BTR40_Base
+	{
+		side = 0;
+		scope = 2;
+		dlc = "CPC_Factions";
+		author = "CPC Faction";
+		faction = "CPC_O_NPFD";
+		crew = "CPC_Duala_O_NPFD_soldier_1";
+		typicalCargo[] = {"CPC_Duala_O_NPFD_soldier_2","CPC_Duala_O_NPFD_soldier_5","CPC_Duala_O_NPFD_soldier_3"};
+        hiddenSelectionsTextures[] ={"CUP\WheeledVehicles\CUP_WheeledVehicles_BTR40\data\btr40ext_co.paa"};
+	};
+	class CPC_Duala_O_NPFD_BTR40_MG : CUP_BTR40_MG_Base
+	{
+		side = 0;
+		scope = 2;
+		dlc = "CPC_Factions";
+		author = "CPC Faction";
+		faction = "CPC_O_NPFD";
+		crew = "CPC_Duala_O_NPFD_soldier_1";
+		typicalCargo[] = {"CPC_Duala_O_NPFD_soldier_2","CPC_Duala_O_NPFD_soldier_5","CPC_Duala_O_NPFD_soldier_3"};
+        hiddenSelectionsTextures[] ={"CUP\WheeledVehicles\CUP_WheeledVehicles_BTR40\data\btr40ext_co.paa"};
+	};
+	
+	class CPC_Duala_O_NPFD_DSHKM : CUP_DSHKM_base
+	{
+		side = 0;
+		scope = 2;
+		dlc = "CPC_Factions";
+		author = "CPC Faction";
+		faction = "CPC_O_NPFD";
+		crew = "CPC_Duala_O_NPFD_soldier_1";
+		typicalCargo[] = {"CPC_Duala_O_NPFD_soldier_1"};
+	};
+	class CPC_Duala_O_NPFD_DSHKM_MiniTripod : CUP_DSHKM_MiniTripod_base
+	{
+		side = 0;
+		scope = 2;
+		dlc = "CPC_Factions";
+		author = "CPC Faction";
+		faction = "CPC_O_NPFD";
+		crew = "CPC_Duala_O_NPFD_soldier_2";
+		typicalCargo[] = {"CPC_Duala_O_NPFD_soldier_2"};
+	};
+	class CPC_Duala_O_NPFD_2b14_82mm : CUP_2b14_82mm_Base
+	{
+		side = 0;
+		scope = 2;
+		dlc = "CPC_Factions";
+		author = "CPC Faction";
+		faction = "CPC_O_NPFD";
+		crew = "CPC_Duala_O_NPFD_soldier_3";
+		typicalCargo[] = {"CPC_Duala_O_NPFD_soldier_3"};
+	};
+	class CPC_Duala_O_NPFD_SPG9 : CUP_SPG9_base
+	{
+		side = 0;
+		scope = 2;
+		dlc = "CPC_Factions";
+		author = "CPC Faction";
+		faction = "CPC_O_NPFD";
+		crew = "CPC_Duala_O_NPFD_soldier_5";
+		typicalCargo[] = {"CPC_Duala_O_NPFD_soldier_5"};
+	};
