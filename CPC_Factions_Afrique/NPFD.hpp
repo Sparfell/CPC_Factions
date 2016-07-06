@@ -29,6 +29,7 @@
 			"",1,
 			"H_Booniehat_oli",1,
 			"CPC_Duala_Booniehat_NPFD",1,
+			"CPC_Duala_Cappatrol_NPFD",1,
 			"CUP_H_SLA_BeretRed",1,
 			"H_Beret_blk",1,
 			"H_Bandanna_khk",1,
@@ -87,10 +88,10 @@
 		icon = "iconManLeader";
 		headgearList[] =
 		{
-			"CUP_H_SLA_BeretRed",1
+			"CPC_Duala_Cappatrol_NPFD",1
 		};
-		linkedItems[] = {"CPC_Vest_Chestrig_2_Brown","CUP_H_SLA_BeretRed","G_Shades_Black","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"CPC_Vest_Chestrig_2_Brown","CUP_H_SLA_BeretRed","G_Shades_Black","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"CPC_Vest_Chestrig_2_Brown","CPC_Duala_Cappatrol_NPFD","G_Shades_Black","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"CPC_Vest_Chestrig_2_Brown","CPC_Duala_Cappatrol_NPFD","G_Shades_Black","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		weapons[] = {"CUP_arifle_AKS","Binocular","Throw","Put"};
 		respawnWeapons[] = {"CUP_arifle_AKS","Binocular","Throw","Put"};
 		magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};

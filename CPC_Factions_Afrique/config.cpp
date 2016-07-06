@@ -83,9 +83,9 @@ class CfgPatches {
 			"CPC_Duala_Uniform_NPFD_1",
 			"CPC_Duala_Booniehat_NPFD",
 			"CPC_Duala_Cappatrol_NPFD",
-			"CPC_Duala_Clothes_Pirate_1",
-			"CPC_Duala_Clothes_Pirate_2",
-			"CPC_Duala_Clothes_Pirate_3"
+			"CPC_Afrique_Clothes_Pirate_1",
+			"CPC_Afrique_Clothes_Pirate_2",
+			"CPC_Afrique_Clothes_Pirate_3"
 		};
 		requiredVersion = 0.1;
 		requiredAddons[] = 

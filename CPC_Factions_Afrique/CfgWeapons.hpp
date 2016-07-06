@@ -88,7 +88,7 @@ class cfgWeapons
 		};
 	};
 	
-	class CPC_Duala_Clothes_Pirate_1: ItemCore
+	class CPC_Afrique_Clothes_Pirate_1: ItemCore
 	{
 		scope = 2;
 		scopeArsenal = 2;
@@ -101,13 +101,13 @@ class cfgWeapons
 		class ItemInfo : UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = CPC_Duala_I_pirate_base_1;
+			uniformClass = CPC_Afrique_I_pirate_base_1;
 			containerClass = Supply30;
 			mass = 30;
 		};
 	};
 
-	class CPC_Duala_Clothes_Pirate_2: ItemCore
+	class CPC_Afrique_Clothes_Pirate_2: ItemCore
 	{
 		scope = 2;
 		scopeArsenal = 2;
@@ -120,13 +120,13 @@ class cfgWeapons
 		class ItemInfo : UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = CPC_Duala_I_pirate_base_2;
+			uniformClass = CPC_Afrique_I_pirate_base_2;
 			containerClass = Supply30;
 			mass = 30;
 		};
 	};	
 	
-	class CPC_Duala_Clothes_Pirate_3: ItemCore
+	class CPC_Afrique_Clothes_Pirate_3: ItemCore
 	{
 		scope = 2;
 		scopeArsenal = 2;
@@ -139,7 +139,7 @@ class cfgWeapons
 		class ItemInfo : UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = CPC_Duala_I_pirate_base_3;
+			uniformClass = CPC_Afrique_I_pirate_base_3;
 			containerClass = Supply30;
 			mass = 30;
 		};
@@ -163,36 +163,21 @@ class cfgWeapons
 		};
 	};
 
-	class HeadgearItem ;
-	class CPC_Duala_Cappatrol_NPFD : ItemCore 
+	class CUP_H_ChDKZ_Cap ;
+	class CPC_Duala_Cappatrol_NPFD : CUP_H_ChDKZ_Cap 
 	{
 		scope = 2;
 		scopeArsenal = 2;
 		dlc = "CPC_Factions";
 		author = "CPC Faction";
-		displayName = "Military Cap (NPFD)";
+		displayName = "Officer Cap (NPFD)";
 		picture = "\CPC\Factions\CPC_Factions_Afrique\data\UI\cappatrol_Africa.paa";
-		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_SLA\CUP_H_SLA_SLhat.p3d";
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Chedaki\CUP_Ins_OfficerCap.p3d";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"CPC\Factions\CPC_Factions_Afrique\data\NPFD_cappatrol.paa"};
 		
-		class ItemInfo : HeadgearItem {
 			mass = 10;
-			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_SLA\CUP_H_SLA_SLhat.p3d";
-			hiddenSelections[] = {"camo"};
-			hiddenSelectionsTextures[] = {"CPC\Factions\CPC_Factions_Afrique\data\NPFD_cappatrol.paa"};
-			allowedSlots[] = {801, 901, 701, 605};
-			modelSides[] = {0, 3};
-			armor = 5;
-			passThrough = 0.5;
-			
-			class HitpointsProtectionInfo {
-				class Head {
-					hitpointName = "HitHead";
-					armor = 6;
-					passThrough = 0.5;
-				};
-			};
+			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Chedaki\CUP_Ins_OfficerCap.p3d";
 		};
 	};
 	

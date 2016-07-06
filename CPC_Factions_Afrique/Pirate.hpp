@@ -1,5 +1,5 @@
 	
-	class CPC_Duala_I_pirate_base_1 : B_Soldier_base_F
+	class CPC_Afrique_I_pirate_base_1 : B_Soldier_base_F
 	{
 		side = 0;
 		scope = 1;
@@ -42,7 +42,7 @@
 		#include "\CPC\Factions\hitpoints_uniform_none.h"
 	};
 
-	class CPC_Duala_I_pirate_base_2 : B_Soldier_base_F
+	class CPC_Afrique_I_pirate_base_2 : B_Soldier_base_F
 	{
 		side = 0;
 		scope = 1;
@@ -85,7 +85,7 @@
 		#include "\CPC\Factions\hitpoints_uniform_none.h"
 	};
 
-	class CPC_Duala_I_pirate_base_3 : B_Soldier_base_F
+	class CPC_Afrique_I_pirate_base_3 : B_Soldier_base_F
 	{
 		side = 0;
 		scope = 1;
