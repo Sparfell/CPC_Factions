@@ -3,6 +3,7 @@ class cfgWeapons
 	class ItemInfo;
 	class UniformItem;
 	class ItemCore;
+	class HeadgearItem;
 	
 	class CUP_Vest_RACS_Camo_Base;
 	class CPC_Duala_Vest_Carrier_Tan : CUP_Vest_RACS_Camo_Base
@@ -90,8 +91,8 @@ class cfgWeapons
 	
 	class CPC_Afrique_Clothes_Pirate_1: ItemCore
 	{
-		scope = 2;
-		scopeArsenal = 2;
+		scope = 1;
+		scopeArsenal = 0;
 		dlc = "CPC_Factions";
 		author = "CPC Faction";
 		displayName = "Pirate Clothes";
@@ -109,8 +110,8 @@ class cfgWeapons
 
 	class CPC_Afrique_Clothes_Pirate_2: ItemCore
 	{
-		scope = 2;
-		scopeArsenal = 2;
+		scope = 1;
+		scopeArsenal = 0;
 		dlc = "CPC_Factions";
 		author = "CPC Faction";
 		displayName = "Pirate Clothes";
@@ -128,8 +129,8 @@ class cfgWeapons
 	
 	class CPC_Afrique_Clothes_Pirate_3: ItemCore
 	{
-		scope = 2;
-		scopeArsenal = 2;
+		scope = 1;
+		scopeArsenal = 0;
 		dlc = "CPC_Factions";
 		author = "CPC Faction";
 		displayName = "Pirate Clothes";
@@ -163,8 +164,7 @@ class cfgWeapons
 		};
 	};
 
-	class CUP_H_ChDKZ_Cap ;
-	class CPC_Duala_Cappatrol_NPFD : CUP_H_ChDKZ_Cap 
+	class CPC_Duala_Cappatrol_NPFD : ItemCore
 	{
 		scope = 2;
 		scopeArsenal = 2;
@@ -175,9 +175,14 @@ class cfgWeapons
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Chedaki\CUP_Ins_OfficerCap.p3d";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"CPC\Factions\CPC_Factions_Afrique\data\NPFD_cappatrol.paa"};
-		
+		class ItemInfo : HeadgearItem {
 			mass = 10;
 			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Chedaki\CUP_Ins_OfficerCap.p3d";
+			hiddenSelections[] = {"camo"};
+			hiddenSelectionsTextures[] = {"CPC\Factions\CPC_Factions_Afrique\data\NPFD_cappatrol.paa"};
+			allowedSlots[] = {801, 901, 701, 605};
+			modelSides[] = {0, 3};
+			#include "\CPC\Factions\hitpoints_headno.h"
 		};
 	};
 	
