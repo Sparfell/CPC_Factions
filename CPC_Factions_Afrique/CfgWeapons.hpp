@@ -1,9 +1,9 @@
 class cfgWeapons
 {
-	class ItemInfo;
 	class UniformItem;
 	class ItemCore;
 	class HeadgearItem;
+	class VestItem;
 	
 	class CUP_Vest_RACS_Camo_Base;
 	class CPC_Duala_Vest_Carrier_Tan : CUP_Vest_RACS_Camo_Base
@@ -19,7 +19,7 @@ class cfgWeapons
 			"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_racs\data\racs_tex1_co.paa",
 			"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_racs\data\racs_tex2_co.paa"
 		};
-		class ItemInfo : ItemInfo
+		class ItemInfo : VestItem
 		{
 			hiddenSelectionsTextures[] = {
 				"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_racs\data\racs_tex1_co.paa",
@@ -158,7 +158,7 @@ class cfgWeapons
 		model = "\A3\Characters_F\Common\booniehat.p3d";
 		hiddenSelectionsTextures[] = {"CPC\Factions\CPC_Factions_Afrique\data\NPFD_Booniehat.paa"};
 		allowedFacewear[] = {};
-		class ItemInfo : ItemInfo
+		class ItemInfo : HeadgearItem
 		{
 			uniformModel = "A3\Characters_F\Common\booniehat.p3d";
 		};
@@ -215,7 +215,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class CPC_Duala_arifle_FNFAL_railed_CWS: CUP_arifle_FNFAL_railed
+	class CPC_Duala_arifle_FNFAL_railed_AN_PVS_4: CUP_arifle_FNFAL_railed
 	{
 		scope = 1;
 		author = "CPC Faction";
@@ -224,7 +224,7 @@ class cfgWeapons
 			class LinkedItemsOptic
 			{
 				slot = "CUP_PicatinnyTopMountFNFAL";
-				item = "CUP_optic_CWS";
+				item = "CUP_optic_AN_PVS_4";
 			};
 		};
 	};

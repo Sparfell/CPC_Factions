@@ -464,3 +464,40 @@
 		crew = "CPC_Duala_O_NPFD_soldier_5";
 		typicalCargo[] = {"CPC_Duala_O_NPFD_soldier_5"};
 	};
+	class CPC_Afrique_O_NPFD_V3S_Open : CUP_V3S_Open_Base
+	{
+		side = 0;
+		scope = 2;
+		dlc = "CPC_Factions";
+		author = "CPC Faction";
+		faction = "CPC_O_NPFD";
+		crew = "CPC_Duala_O_NPFD_soldier_1";
+		typicalCargo[] = {"CPC_Duala_O_NPFD_soldier_1"};
+		hiddenSelections[] ={"Camo1","Camo2","Camo3"};
+		hiddenSelectionsTextures[] =
+		{
+			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_kabpar_eciv_co",
+			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_intkor_eciv_co",
+			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_koloint02_eciv_co"
+		};
+		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_V3S\Data\preview\CUP_V3S_Open_TKC.jpg";		
+	};
+	class CPC_Afrique_O_NPFD_V3S_Covered : CUP_V3S_Covered_Base
+	{
+		side = 0;
+		scope = 2;
+		dlc = "CPC_Factions";
+		author = "CPC Faction";
+		faction = "CPC_O_NPFD";
+		crew = "CPC_Duala_O_NPFD_soldier_2";
+		typicalCargo[] = {"CPC_Duala_O_NPFD_soldier_2"};
+		hiddenSelections[] ={"Camo1","Camo2","Camo3","Camo4"};
+		hiddenSelectionsTextures[] =
+		{
+			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_kabpar_eciv_co",
+			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_intkor_eciv_co",
+			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_koloint02_eciv_co",
+			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_reammo_egue_co"
+		};
+		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_V3S\Data\preview\CUP_V3S_Covered_TKC.jpg";	
+	};

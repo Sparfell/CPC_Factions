@@ -1,6 +1,5 @@
 class cfgWeapons
 {
-	class ItemInfo;
 	class UniformItem;
 	class ItemCore;
 	

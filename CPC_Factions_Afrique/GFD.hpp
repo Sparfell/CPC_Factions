@@ -68,8 +68,8 @@
 		scopeCurator = 2;
 		linkedItems[] = {"CPC_Duala_Vest_Carrier_Tan","CUP_H_SLA_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"CPC_Duala_Vest_Carrier_Tan","CUP_H_SLA_Helmet","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		weapons[] = {"CPC_Duala_arifle_FNFAL_railed_CWS","Throw","Put"};
-		respawnWeapons[] = {"CPC_Duala_arifle_FNFAL_railed_CWS","Throw","Put"};
+		weapons[] = {"CPC_Duala_arifle_FNFAL_railed_AN_PVS_4","Throw","Put"};
+		respawnWeapons[] = {"CPC_Duala_arifle_FNFAL_railed_AN_PVS_4","Throw","Put"};
 		magazines[] = {"CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		respawnMagazines[] = {"CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 	};
@@ -566,4 +566,83 @@
 		faction = "CPC_B_GFD";
 		crew = "CPC_Duala_B_GFD_soldier_1";
 		typicalCargo[] = {"CPC_Duala_B_GFD_soldier_1"};
+	};
+	class CUP_V3S_Open_Base;
+	class CPC_Afrique_B_GFD_V3S_Open : CUP_V3S_Open_Base
+	{
+		side = 1;
+		scope = 2;
+		dlc = "CPC_Factions";
+		author = "CPC Faction";
+		faction = "CPC_B_GFD";
+		crew = "CPC_Duala_B_GFD_soldier_2";
+		typicalCargo[] = {"CPC_Duala_B_GFD_soldier_1"};
+		hiddenSelections[] ={"Camo1","Camo2","Camo3"};
+		hiddenSelectionsTextures[] =
+		{
+			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_kabpar_egue_co",
+			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_intkor_egue_co",
+			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_koloint02_egue_co"
+		};
+		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_V3S\Data\preview\CUP_V3S_Open_TKG.jpg";		
+	};
+	class CUP_V3S_Covered_Base;
+	class CPC_Afrique_B_GFD_V3S_Covered : CUP_V3S_Covered_Base
+	{
+		side = 1;
+		scope = 2;
+		dlc = "CPC_Factions";
+		author = "CPC Faction";
+		faction = "CPC_B_GFD";
+		crew = "CPC_Duala_B_GFD_soldier_2";
+		typicalCargo[] = {"CPC_Duala_B_GFD_soldier_1"};
+		hiddenSelections[] ={"Camo1","Camo2","Camo3","Camo4"};
+		hiddenSelectionsTextures[] =
+		{
+			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_kabpar_egue_co",
+			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_intkor_egue_co",
+			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_koloint02_egue_co",
+			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_reammo_egue_co"
+		};
+		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_V3S\Data\preview\CUP_V3S_Covered_TKG.jpg";	
+	};
+	class CUP_V3S_Refuel_Base;
+	class CPC_Afrique_B_GFD_V3S_Refuel : CUP_V3S_Refuel_Base
+	{
+		side = 1;
+		scope = 2;
+		dlc = "CPC_Factions";
+		author = "CPC Faction";
+		faction = "CPC_B_GFD";
+		crew = "CPC_Duala_B_GFD_soldier_2";
+		typicalCargo[] = {"CPC_Duala_B_GFD_soldier_1"};
+		hiddenSelections[] ={"Camo1","Camo2","Camo3","Camo4"};
+		hiddenSelectionsTextures[] =
+		{
+			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_kabpar_egue_co",
+			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_intkor_egue_co",
+			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_koloint02_egue_co",
+			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_refuel_egue_co"
+		};
+		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_V3S\Data\preview\CUP_V3S_Refuel_TKG.jpg";
+	};
+	class CUP_V3S_Repair_Base;
+	class CPC_Afrique_B_GFD_V3S_Repair : CUP_V3S_Repair_Base
+	{
+		side = 1;
+		scope = 2;
+		dlc = "CPC_Factions";
+		author = "CPC Faction";
+		faction = "CPC_B_GFD";
+		crew = "CPC_Duala_B_GFD_soldier_2";
+		typicalCargo[] = {"CPC_Duala_B_GFD_soldier_1"};
+		hiddenSelections[] ={"Camo1","Camo2","Camo3","Camo4"};
+		hiddenSelectionsTextures[] =
+		{
+			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_kabpar_egue_co",
+			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_intkor_egue_co",
+			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_koloint02_egue_co",
+			"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_repair_egue_co"
+		};
+		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_V3S\Data\preview\CUP_V3S_Repair_TKG.jpg";
 	};

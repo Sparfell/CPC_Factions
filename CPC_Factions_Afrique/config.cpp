@@ -44,6 +44,10 @@ class CfgPatches {
 			"CPC_Duala_B_GFD_D30",
 			"CPC_Duala_B_GFD_DSHKM",
 			"CPC_Duala_B_GFD_DSHKM_MiniTripod",
+			"CPC_Afrique_B_GFD_V3S_Open",
+			"CPC_Afrique_B_GFD_V3S_Covered",
+			"CPC_Afrique_B_GFD_V3S_Refuel",
+			"CPC_Afrique_B_GFD_V3S_Repair",
 			
 			
 			"CPC_Duala_O_NPFD_soldier_1",
@@ -76,16 +80,15 @@ class CfgPatches {
 			"CPC_Duala_O_NPFD_DSHKM",
 			"CPC_Duala_O_NPFD_DSHKM_MiniTripod",
 			"CPC_Duala_O_NPFD_2b14_82mm",
-			"CPC_Duala_O_NPFD_SPG9"
+			"CPC_Duala_O_NPFD_SPG9",
+			"CPC_Afrique_O_NPFD_V3S_Open",
+			"CPC_Afrique_O_NPFD_V3S_Covered"
 		};
 		weapons[] = {
 			"CPC_Duala_Vest_Carrier_Tan",
 			"CPC_Duala_Uniform_NPFD_1",
 			"CPC_Duala_Booniehat_NPFD",
-			"CPC_Duala_Cappatrol_NPFD",
-			"CPC_Afrique_Clothes_Pirate_1",
-			"CPC_Afrique_Clothes_Pirate_2",
-			"CPC_Afrique_Clothes_Pirate_3"
+			"CPC_Duala_Cappatrol_NPFD"
 		};
 		requiredVersion = 0.1;
 		requiredAddons[] = 
