@@ -15,12 +15,14 @@ class cfgWeapons
 		displayName = "RACS Carrier Vest (Variant, no radio)";
 		picture = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Germany\data\ui\icon_v_carrier_vest_ca.paa";
 		model = "CPC\Factions\CPC_Factions_Afrique\CPC_Afrique_CarrierVest2.p3d";
+		hiddenSelections[] = {"camo1", "camo2"};
 		hiddenSelectionsTextures[] = {
 			"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_racs\data\racs_tex1_co.paa",
 			"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_racs\data\racs_tex2_co.paa"
 		};
 		class ItemInfo : VestItem
 		{
+			hiddenSelections[] = {"camo1", "camo2"};
 			hiddenSelectionsTextures[] = {
 				"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_racs\data\racs_tex1_co.paa",
 				"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_racs\data\racs_tex2_co.paa"
@@ -156,11 +158,14 @@ class cfgWeapons
 		displayName = "Booniehat (NPFD)";
 		picture = "\CPC\Factions\CPC_Factions_Afrique\data\UI\Booniehat_Africa.paa";
 		model = "\A3\Characters_F\Common\booniehat.p3d";
+		hiddenSelections[]={"camo"};
 		hiddenSelectionsTextures[] = {"CPC\Factions\CPC_Factions_Afrique\data\NPFD_Booniehat.paa"};
 		allowedFacewear[] = {};
 		class ItemInfo : HeadgearItem
 		{
 			uniformModel = "A3\Characters_F\Common\booniehat.p3d";
+			hiddenSelections[]={"camo"};
+			hiddenSelectionsTextures[] = {"CPC\Factions\CPC_Factions_Afrique\data\NPFD_Booniehat.paa"};
 		};
 	};
 
