@@ -247,4 +247,18 @@ class cfgWeapons
 			};
 		};
 	};
+	class CUP_arifle_AK74
+    class CPC_Afrique_rifle_AK74_PSO: CUP_arifle_AK74
+    {
+        scope = 1;
+        author = "CPC Faction";
+        class LinkedItems
+        {
+            class LinkedItemsOptic
+            {
+                slot = "CUP_DovetailMount_AK";
+                item = "CUP_optic_PSO_1";
+            };
+        };
+};
 };

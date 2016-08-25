@@ -74,6 +74,24 @@ class CfgVehicles
 			};
 		};
 	};
+	class CPC_Afrique_Backpack_Pirate_AT: CUP_B_RPGPack_Khaki
+	{
+		scope = 1;
+		scopeArsenal = 0;
+		class TransportMagazines
+		{
+			class _xx_CUP_PG7VM_M
+			{
+				magazine = "CUP_PG7VM_M";
+				count = 1;
+			};
+			class _xx_CUP_OG7_M
+			{
+				magazine = "CUP_OG7_M";
+				count = 2;
+			};
+		};
+	};
 	class CUP_B_USMC_AssaultPack;
 	class CPC_Duala_Backpack_GFD_Medic: CUP_B_USMC_AssaultPack
 	{
@@ -197,7 +215,20 @@ class CfgVehicles
 			};
 		};
 	};
-	
+	class CUP_B_AlicePack_Bedroll;
+	class CPC_Afrique_Backpack_Pirate_MG:CUP_B_AlicePack_Bedroll
+	{
+		scope = 1;
+		scopeArsenal = 0;
+		class TransportMagazines
+		{
+			class _xx_CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M
+			{
+				magazine = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
+				count = 3;
+			};
+		};
+	};
 #include "GFD.hpp"
 #include "NPFD.hpp"
 #include "Pirate.hpp"
