@@ -1,7 +1,7 @@
 	
 	class CPC_Afrique_I_pirate_base_1 : B_Soldier_base_F
 	{
-		side = 0;
+		side = 2;
 		scope = 1;
 		scopeCurator = 0;
 		asr_ai_level = 6;
@@ -16,7 +16,7 @@
 		faction = "CPC_I_Pirate";
 		identityTypes[] = {"LanguageGRE_F","Head_African",""};
 		model = "\A3\Characters_F\Civil\c_poloshirt.p3d";
-		uniformClass = "CPC_Duala_Clothes_Pirate_1";
+		uniformClass = "CPC_Afrique_Clothes_Pirate_1";
 		Items[] = {"FirstAidKit"};
 		RespawnItems[] = {"FirstAidKit"};
 		hiddenSelectionsTextures[] = {
@@ -45,7 +45,7 @@
 
 	class CPC_Afrique_I_pirate_base_2 : B_Soldier_base_F
 	{
-		side = 0;
+		side = 2;
 		scope = 1;
 		scopeCurator = 0;
 		asr_ai_level = 6;
@@ -60,7 +60,7 @@
 		faction = "CPC_I_Pirate";
 		identityTypes[] = {"LanguageGRE_F","Head_African",""};
 		model = "\A3\Characters_F\Civil\c_poloshirt.p3d";
-		uniformClass = "CPC_Duala_Clothes_Pirate_2";
+		uniformClass = "CPC_Afrique_Clothes_Pirate_2";
 		Items[] = {"FirstAidKit"};
 		RespawnItems[] = {"FirstAidKit"};
 		hiddenSelectionsTextures[] = {
@@ -80,7 +80,7 @@
 			"H_Cap_oli",1,
 			"H_Shemag_olive",1,
 			"H_ShemagOpen_tan",1,
-			"H_ShemagOpen_khk",1
+			"H_ShemagOpen_khk",1,
 			"CUP_H_SLA_Helmet",1
 			
 		};
@@ -89,7 +89,7 @@
 
 	class CPC_Afrique_I_pirate_base_3 : B_Soldier_base_F
 	{
-		side = 0;
+		side = 2;
 		scope = 1;
 		scopeCurator = 0;
 		asr_ai_level = 6;
@@ -104,7 +104,7 @@
 		faction = "CPC_I_Pirate";
 		identityTypes[] = {"LanguageGRE_F","Head_African",""};
 		model = "\A3\Characters_F\Civil\c_poloshirt.p3d";
-		uniformClass = "CPC_Duala_Clothes_Pirate_3";
+		uniformClass = "CPC_Afrique_Clothes_Pirate_3";
 		Items[] = {"FirstAidKit"};
 		RespawnItems[] = {"FirstAidKit"};
 		hiddenSelectionsTextures[] = {
@@ -124,14 +124,14 @@
 			"H_Cap_oli",1,
 			"H_Shemag_olive",1,
 			"H_ShemagOpen_tan",1,
-			"H_ShemagOpen_khk",1
+			"H_ShemagOpen_khk",1,
 			"CUP_H_SLA_Helmet",1
 			
 		};
 		#include "\CPC\Factions\hitpoints_uniform_none.h"
 	};
 	
-class CPC_Afrique_I_pirate_TL : CPC_Afrique_I_pirate_base_1
+class CPC_Afrique_I_pirate_soldier_TL : CPC_Afrique_I_pirate_base_1
 	{
 		displayName = "Leader";
 		scope = 2;
@@ -180,8 +180,8 @@ class CPC_Afrique_I_pirate_soldier_3 : CPC_Afrique_I_pirate_base_3
 		scopeCurator = 2;
 		linkedItems[] = {"CUP_V_OI_TKI_Jacket2_02","G_Bandanna_khk","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"CUP_V_OI_TKI_Jacket2_02","G_Bandanna_khk","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		weapons[] = {"CPC_Afrique_rifle_AK74_PSO","Binocular","Throw","Put"};
-		respawnWeapons[] = {"CPC_Afrique_rifle_AK74_PSO","Binocular","Throw","Put"};
+		weapons[] = {"CPC_Afrique_arifle_AK74_PSO","Binocular","Throw","Put"};
+		respawnWeapons[] = {"CPC_Afrique_arifle_AK74_PSO","Binocular","Throw","Put"};
 		magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5"};
 		respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5"};
 	};
@@ -263,15 +263,15 @@ class CPC_Afrique_I_pirate_soldier_ENG : CPC_Afrique_I_pirate_base_3
 		canDeactivateMines = 1;
 		engineer = 1;
 		backpack = "CPC_Duala_Backpack_NPFD_ENG";
-		linkedItems[] = {"CUP_V_O_Ins_Carrier_Rig","G_Bandanna_khk","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"CUP_V_O_Ins_Carrier_Rig","G_Bandanna_khk","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"CUP_V_O_Ins_Carrier_Rig_Light","G_Bandanna_khk","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"CUP_V_O_Ins_Carrier_Rig_Light","G_Bandanna_khk","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		weapons[] = {"CUP_arifle_AKS74U","Throw","Put"};
 		respawnWeapons[] = {"CUP_arifle_AKS74U","Throw","Put"};
-		magazines[] = {"CUP_V_O_Ins_Carrier_Rig_Light","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5"};
-		respawnMagazines[] = {"CUP_V_O_Ins_Carrier_Rig_Light","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5"};
+		magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5"};
+		respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5"};
 	};
 	
-class CPC_Afrique_I_pirate_soldier_MEDIC : CPC_Afrique_I_pirate_base_3
+class CPC_Afrique_I_pirate_soldier_Medic : CPC_Afrique_I_pirate_base_3
 	{
 		displayName = "Medic";
 		scope = 2;

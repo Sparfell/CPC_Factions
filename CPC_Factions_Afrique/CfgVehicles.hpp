@@ -229,6 +229,15 @@ class CfgVehicles
 			};
 		};
 	};
+	
+	class Man;
+	class CAManBase: Man
+	{
+		class HitPoints;
+	};
+	class SoldierWB: CAManBase
+	{
+	};
 #include "GFD.hpp"
 #include "NPFD.hpp"
 #include "Pirate.hpp"

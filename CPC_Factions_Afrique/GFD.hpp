@@ -1,4 +1,4 @@
-	class B_Soldier_base_F;
+	class B_Soldier_base_F: SoldierWB {};
 	class CPC_Duala_B_GFD_soldier_base : B_Soldier_base_F
 	{
 		side = 1;

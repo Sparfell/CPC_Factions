@@ -1,4 +1,4 @@
-		class HitPoints
+		class HitPoints : HitPoints
 		{
 			class HitFace
 			{

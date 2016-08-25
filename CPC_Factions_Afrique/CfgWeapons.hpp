@@ -93,8 +93,8 @@ class cfgWeapons
 	
 	class CPC_Afrique_Clothes_Pirate_1: ItemCore
 	{
-		scope = 1;
-		scopeArsenal = 0;
+		scope = 2;
+		scopeArsenal = 2;
 		dlc = "CPC_Factions";
 		author = "CPC Faction";
 		displayName = "Pirate Clothes";
@@ -112,8 +112,8 @@ class cfgWeapons
 
 	class CPC_Afrique_Clothes_Pirate_2: ItemCore
 	{
-		scope = 1;
-		scopeArsenal = 0;
+		scope = 2;
+		scopeArsenal = 2;
 		dlc = "CPC_Factions";
 		author = "CPC Faction";
 		displayName = "Pirate Clothes";
@@ -131,8 +131,8 @@ class cfgWeapons
 	
 	class CPC_Afrique_Clothes_Pirate_3: ItemCore
 	{
-		scope = 1;
-		scopeArsenal = 0;
+		scope = 2;
+		scopeArsenal = 2;
 		dlc = "CPC_Factions";
 		author = "CPC Faction";
 		displayName = "Pirate Clothes";
@@ -247,8 +247,8 @@ class cfgWeapons
 			};
 		};
 	};
-	class CUP_arifle_AK74
-    class CPC_Afrique_rifle_AK74_PSO: CUP_arifle_AK74
+	class CUP_arifle_AK74;
+    class CPC_Afrique_arifle_AK74_PSO: CUP_arifle_AK74
     {
         scope = 1;
         author = "CPC Faction";
@@ -260,5 +260,5 @@ class cfgWeapons
                 item = "CUP_optic_PSO_1";
             };
         };
-};
+	};
 };

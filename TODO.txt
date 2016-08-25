@@ -1,3 +1,4 @@
 - Changer la valeur "cost" des unités en fonctions des standard ASRAI :
  150000 = civil ou guerilla ; 300000 = reguliers ; 450000 = officiers, snipers FS.
 
+CFGgroups : reste à corriger les icones

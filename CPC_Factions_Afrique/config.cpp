@@ -82,7 +82,19 @@ class CfgPatches {
 			"CPC_Duala_O_NPFD_2b14_82mm",
 			"CPC_Duala_O_NPFD_SPG9",
 			"CPC_Afrique_O_NPFD_V3S_Open",
-			"CPC_Afrique_O_NPFD_V3S_Covered"
+			"CPC_Afrique_O_NPFD_V3S_Covered",
+			
+			"CPC_Afrique_I_pirate_soldier_TL",
+			"CPC_Afrique_I_pirate_soldier_1",
+			"CPC_Afrique_I_pirate_soldier_2",
+			"CPC_Afrique_I_pirate_soldier_3",
+			"CPC_Afrique_I_pirate_soldier_MG",
+			"CPC_Afrique_I_pirate_soldier_AR",
+			"CPC_Afrique_I_pirate_soldier_GL",
+			"CPC_Afrique_I_pirate_soldier_AT",
+			"CPC_Afrique_I_pirate_soldier_ENG",
+			"CPC_Afrique_I_pirate_soldier_Medic"
+			
 		};
 		weapons[] = {
 			"CPC_Duala_Vest_Carrier_Tan",
@@ -144,6 +156,14 @@ class CfgFactionClasses
 		priority = 1;
 		side = 0;
 	};
+	class CPC_I_Pirate
+	{
+		displayName = "Pirates";
+		author = "CPC Faction";
+		icon = "CPC\Factions\CPC_Factions_Afrique\data\icon_flag_GFD.paa";
+		priority = 1;
+		side = 2;
+	};
 };
 
 class Extended_Init_Eventhandlers
@@ -152,7 +172,20 @@ class Extended_Init_Eventhandlers
 	{
 		CPC_Duala_O_NPFD_soldier_base_init = "if (local (_this select 0)) then {[(_this select 0), [], nil] call BIS_fnc_unitHeadgear;};";
 	};
+	class CPC_Afrique_I_pirate_base_1
+	{
+		CPC_Afrique_I_pirate_base_1_init = "if (local (_this select 0)) then {[(_this select 0), [], nil] call BIS_fnc_unitHeadgear;};";
+	};
+	class CPC_Afrique_I_pirate_base_2
+	{
+		CPC_Afrique_I_pirate_base_2_init = "if (local (_this select 0)) then {[(_this select 0), [], nil] call BIS_fnc_unitHeadgear;};";
+	};
+	class CPC_Afrique_I_pirate_base_3
+	{
+		CPC_Afrique_I_pirate_base_3_init = "if (local (_this select 0)) then {[(_this select 0), [], nil] call BIS_fnc_unitHeadgear;};";
+	};
 };
 
 #include "CfgWeapons.hpp"
 #include "CfgVehicles.hpp"
+#include "CfgGroups.hpp"
