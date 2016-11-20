@@ -4,11 +4,12 @@ class CfgPatches {
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = {"CUP_Creatures_Military_USMC","CUP_Creatures_Military_Taki","CUP_Creatures_Military_Germany","CUP_Creatures_Military_NAPA","CUP_Creatures_Military_TakiInsurgents"};
+		requiredAddons[] = {};
+		//requiredAddons[] = {"CUP_Creatures_Military_USMC","CUP_Creatures_Military_Taki","CUP_Creatures_Military_Germany","CUP_Creatures_Military_NAPA","CUP_Creatures_Military_TakiInsurgents"};
 	};
 };
 
-
+/*
 class CfgVehicles
 {
 #include "USMC_units.hpp"
@@ -18,3 +19,4 @@ class CfgVehicles
 #include "TakyInsurgent_units.hpp"
 #include "NAPA_units.hpp"	
 };
+*/
