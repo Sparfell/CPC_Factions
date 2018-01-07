@@ -10,7 +10,7 @@ class CfgPatches {
 			
 		};
 		requiredVersion = 0.1;
-		requiredAddons[] = {"CPC_Factions_Main","A3_Characters_F","CUP_Creatures_Military_Germany","CUP_Creatures_Military_RACS","CUP_Creatures_Military_Taki","rhsgref_c_troops"};
+		requiredAddons[] = {"CPC_Factions_Main","A3_Characters_F","CUP_Creatures_Military_Germany","CUP_Creatures_Military_RACS","CUP_Creatures_Military_Taki","rhsusf_c_weapons"};
 	};
 };
 #include "CfgWeapons.hpp"

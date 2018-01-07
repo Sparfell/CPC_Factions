@@ -64,7 +64,4 @@ class CfgVehicles
 		displayName = "Carryall Backpack (Snow)";
 		hiddenSelectionsTextures[] = {"\CPC\Factions\CPC_Factions_Snow\Data\backpack_1.paa"};
 	};
-	
-	//Proper Units
-//#include "SYAJ.hpp"
 };

@@ -1,3 +1,15 @@
+
+class CfgPatches {
+	class CPC_Factions_Main
+	{
+		units[] = {};
+		weapons[] = {};
+		requiredVersion = 0.1;
+		requiredAddons[] = {"A3_Data_F"};
+	};
+};
+
+
 class CfgMods
 {
 	class Mod_Base;
@@ -17,15 +29,3 @@ class CfgMods
 		dir = "CPC Factions";
 	};
 };
-
-
-class CfgPatches {
-	class CPC_Factions_Main {
-		units[] = {};
-		weapons[] = {};
-		requiredVersion = 0.1;
-		requiredAddons[] = {};
-	};
-};
-
-
