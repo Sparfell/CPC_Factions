@@ -257,6 +257,7 @@ class cfgGroups
 					icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
 					faction = "CPC_B_GFD";
 					rarityGroup = 0.3;
+					side = 1;
 					class Unit0
 					{
 						side = 1;
@@ -334,6 +335,7 @@ class cfgGroups
 					icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
 					faction = "CPC_B_GFD";
 					rarityGroup = 0.3;
+					side = 1;
 					class Unit0
 					{
 						side = 1;
@@ -369,6 +371,7 @@ class cfgGroups
 					icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
 					faction = "CPC_B_GFD";
 					rarityGroup = 0.4;
+					side = 1;
 					class Unit0
 					{
 						side = 1;
@@ -408,6 +411,7 @@ class cfgGroups
 					icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
 					faction = "CPC_B_GFD";
 					rarityGroup = 0.7;
+					side = 1;
 					class Unit0
 					{
 						side = 1;
@@ -464,6 +468,7 @@ class cfgGroups
 					icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
 					faction = "CPC_B_GFD";
 					rarityGroup = 0.9;
+					side = 1;
 					class Unit0
 					{
 						side = 1;
@@ -534,6 +539,7 @@ class cfgGroups
 					icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
 					faction = "CPC_B_GFD";
 					rarityGroup = 0.7;
+					side = 1;
 					class Unit0
 					{
 						side = 1;
@@ -601,6 +607,7 @@ class cfgGroups
 					icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
 					faction = "CPC_B_GFD";
 					rarityGroup = 0.05;
+					side = 1;
 					class Unit0
 					{
 						side = 1;
@@ -635,6 +642,7 @@ class cfgGroups
 					rarityGroup = 0.3;
 					minAltitude = 60;
 					maxAltitude = 150;
+					side = 1;
 					class Unit0
 					{
 						side = 1;
@@ -658,6 +666,7 @@ class cfgGroups
 					rarityGroup = 0.3;
 					minAltitude = 100;
 					maxAltitude = 500;
+					side = 1;
 					class Unit0
 					{
 						side = 1;
