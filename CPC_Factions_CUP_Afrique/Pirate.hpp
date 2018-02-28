@@ -11,7 +11,7 @@
 		camouflage = 1.1;
 		minFireTime = 7;
 		cost = 150000;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
 		faction = "CPC_I_Pirate";
 		identityTypes[] = {"LanguageGRE_F","Head_African",""};
@@ -20,7 +20,7 @@
 		Items[] = {"FirstAidKit"};
 		RespawnItems[] = {"FirstAidKit"};
 		hiddenSelectionsTextures[] = {
-		"\CPC\Factions\CPC_Factions_Afrique\Data\pirate_uniform1.paa"
+		"\CPC\Factions\CPC_Factions_CUP_Afrique\Data\pirate_uniform1.paa"
 		};
 		icon = "iconMan";
 		headgearList[] =
@@ -55,7 +55,7 @@
 		camouflage = 1.1;
 		minFireTime = 7;
 		cost = 150000;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
 		faction = "CPC_I_Pirate";
 		identityTypes[] = {"LanguageGRE_F","Head_African",""};
@@ -64,7 +64,7 @@
 		Items[] = {"FirstAidKit"};
 		RespawnItems[] = {"FirstAidKit"};
 		hiddenSelectionsTextures[] = {
-		"\CPC\Factions\CPC_Factions_Afrique\Data\pirate_uniform2.paa"
+		"\CPC\Factions\CPC_Factions_CUP_Afrique\Data\pirate_uniform2.paa"
 		};
 		icon = "iconMan";
 		headgearList[] =
@@ -99,7 +99,7 @@
 		camouflage = 1.1;
 		minFireTime = 7;
 		cost = 150000;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
 		faction = "CPC_I_Pirate";
 		identityTypes[] = {"LanguageGRE_F","Head_African",""};
@@ -108,7 +108,7 @@
 		Items[] = {"FirstAidKit"};
 		RespawnItems[] = {"FirstAidKit"};
 		hiddenSelectionsTextures[] = {
-		"\CPC\Factions\CPC_Factions_Afrique\Data\pirate_uniform3.paa"
+		"\CPC\Factions\CPC_Factions_CUP_Afrique\Data\pirate_uniform3.paa"
 		};
 		icon = "iconMan";
 		headgearList[] =

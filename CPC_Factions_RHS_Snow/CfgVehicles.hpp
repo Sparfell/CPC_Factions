@@ -12,7 +12,7 @@ class CfgVehicles
 	// Base classes
 	class CPC_Snow_Base_Soldier_1 : SoldierWB
 	{
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		scope = 1;
 		side = 2;
@@ -28,12 +28,12 @@ class CfgVehicles
 		model = "\rhsgref\addons\rhsgref_infantry\gear_gue\gue_m93";
 		uniformClass = "CPC_Snow_Uniform_1";
 		hiddenSelections[] = {"Camo"};
-		hiddenSelectionsTextures[] = {"\CPC\Factions\CPC_Factions_Snow\Data\uniform_1_04.paa"};
+		hiddenSelectionsTextures[] = {"\CPC\Factions\CPC_Factions_RHS_Snow\Data\uniform_1_04.paa"};
 		#include "\CPC\Factions\hitpoints_uniform_none.h"
 	};
 	class CPC_Snow_Base_Soldier_2 : SoldierWB
 	{
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		scope = 1;
 		side = 1;
@@ -49,7 +49,7 @@ class CfgVehicles
 		model = "\rhsgref\addons\rhsgref_infantry\gear_gue\gue_m10";
 		uniformClass = "CPC_Snow_Uniform_2";
 		hiddenSelections[] = {"Camo"};
-		hiddenSelectionsTextures[] = {"\CPC\Factions\CPC_Factions_Snow\Data\uniform_2_01.paa"};
+		hiddenSelectionsTextures[] = {"\CPC\Factions\CPC_Factions_RHS_Snow\Data\uniform_2_01.paa"};
 		#include "\CPC\Factions\hitpoints_uniform_none.h"
 	};
 	
@@ -59,9 +59,9 @@ class CfgVehicles
 	{
 		scope = 2;
 		scopeArsenal = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		displayName = "Carryall Backpack (Snow)";
-		hiddenSelectionsTextures[] = {"\CPC\Factions\CPC_Factions_Snow\Data\backpack_1.paa"};
+		hiddenSelectionsTextures[] = {"\CPC\Factions\CPC_Factions_RHS_Snow\Data\backpack_1.paa"};
 	};
 };

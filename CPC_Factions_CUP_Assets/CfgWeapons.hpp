@@ -7,7 +7,7 @@ class cfgWeapons
 		scope = 1;
 		scopeArsenal = 0;
 		scopeCurator = 0;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
 	};
 	class CUP_V_I_RACS_Carrier_Rig_2;
@@ -16,7 +16,7 @@ class cfgWeapons
 		scope = 1;
 		scopeArsenal = 0;
 		scopeCurator = 0;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
 	};
 	class CUP_V_B_GER_Carrier_Rig_3_Brown;
@@ -25,7 +25,7 @@ class cfgWeapons
 		scope = 1;
 		scopeArsenal = 0;
 		scopeCurator = 0;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
 	};
 	class CUP_V_I_RACS_Carrier_Rig_3;
@@ -34,7 +34,7 @@ class cfgWeapons
 		scope = 1;
 		scopeArsenal = 0;
 		scopeCurator = 0;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
 	};
 };

@@ -10,7 +10,7 @@
 		camouflage = 1.4;
 		minFireTime = 7;
 		cost = 300000;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		faction = "CPC_O_KAM";
 		identityTypes[] = {"LanguagePER_F","Head_TK",""};
@@ -230,7 +230,7 @@
 	{
 		side = 0;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		faction = "CPC_O_KAM";
 		crew = "CPC_ME_O_KAM_soldier_crew";
@@ -244,7 +244,7 @@
 	{
 		side = 0;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		faction = "CPC_O_KAM";
 		crew = "CPC_ME_O_KAM_soldier_crew";
@@ -273,7 +273,7 @@
 	{
 		side = 0;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		faction = "CPC_O_KAM";
 		crew = "CPC_ME_O_KAM_soldier_crew";
@@ -312,7 +312,7 @@
 	{
 		side = 0;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		faction = "CPC_O_KAM";
 		crew = "CPC_ME_O_KAM_soldier_crew";
@@ -329,7 +329,7 @@
 	{
 		side = 0;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		faction = "CPC_O_KAM";
 		crew = "CPC_ME_O_KAM_soldier_HeliPilot";
@@ -344,7 +344,7 @@
 	{
 		side = 0;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		faction = "CPC_O_KAM";
 		crew = "CPC_ME_O_KAM_soldier_HeliPilot";
@@ -359,7 +359,7 @@
 	{
 		side = 0;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		faction = "CPC_O_KAM";
 		crew = "CPC_ME_O_KAM_soldier_HeliPilot";
@@ -375,7 +375,7 @@
 	{
 		side = 0;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		faction = "CPC_O_KAM";
 		crew = "CPC_ME_O_KAM_soldier_Pilot";
@@ -392,7 +392,7 @@
 	{
 		side = 0;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		faction = "CPC_O_KAM";
 		crew = "CPC_ME_O_KAM_soldier_light";
@@ -406,7 +406,7 @@
 	{
 		side = 0;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		faction = "CPC_O_KAM";
 		crew = "CPC_ME_O_KAM_soldier_light";
@@ -420,7 +420,7 @@
 	{
 		side = 0;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		faction = "CPC_O_KAM";
 		crew = "CPC_ME_O_KAM_soldier_light";
@@ -434,7 +434,7 @@
 	{
 		side = 0;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		faction = "CPC_O_KAM";
 		crew = "CPC_ME_O_KAM_soldier_light";
@@ -448,7 +448,7 @@
 	{
 		side = 0;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		faction = "CPC_O_KAM";
 		crew = "CPC_ME_O_KAM_soldier_light";
@@ -462,7 +462,7 @@
 	{
 		side = 0;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		faction = "CPC_O_KAM";
 		crew = "CPC_ME_O_KAM_soldier_light";
@@ -491,7 +491,7 @@
 	{
 		side = 0;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		faction = "CPC_O_KAM";
 		crew = "CPC_ME_O_KAM_soldier_light";
@@ -517,7 +517,7 @@
 	{
 		side = 0;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		faction = "CPC_O_KAM";
 		crew = "CPC_ME_O_KAM_soldier_light";
@@ -531,7 +531,7 @@
 	{
 		side = 0;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		faction = "CPC_O_KAM";
 		crew = "CPC_ME_O_KAM_soldier_light";
@@ -545,7 +545,7 @@
 	{
 		side = 0;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		faction = "CPC_O_KAM";
 		crew = "CPC_ME_O_KAM_soldier_light";
@@ -559,7 +559,7 @@
 	{
 		side = 0;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		faction = "CPC_O_KAM";
 		crew = "CPC_ME_O_KAM_soldier_light";
@@ -573,7 +573,7 @@
 	{
 		side = 0;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		faction = "CPC_O_KAM";
 		crew = "CPC_ME_O_KAM_soldier_light";
@@ -587,7 +587,7 @@
 	{
 		side = 0;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		faction = "CPC_O_KAM";
 		crew = "CPC_ME_O_KAM_soldier_light";
@@ -600,7 +600,7 @@
 	{
 		side = 0;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		faction = "CPC_O_KAM";
 		crew = "CPC_ME_O_KAM_soldier_1";
@@ -631,7 +631,7 @@
 	{
 		side = 0;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		faction = "CPC_O_KAM";
 		crew = "CPC_ME_O_KAM_soldier_1";
@@ -662,7 +662,7 @@
 	{
 		side = 0;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		faction = "CPC_O_KAM";
 		crew = "CPC_ME_O_KAM_soldier_1";
@@ -693,7 +693,7 @@
 	{
 		side = 0;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		faction = "CPC_O_KAM";
 		crew = "CPC_ME_O_KAM_soldier_crew";
@@ -709,7 +709,7 @@
 	{
 		side = 0;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		faction = "CPC_O_KAM";
 		crew = "CPC_ME_O_KAM_soldier_light";
@@ -723,7 +723,7 @@
 	{
 		side = 0;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		faction = "CPC_O_KAM";
 		crew = "CPC_ME_O_KAM_soldier_1";
@@ -735,7 +735,7 @@
 	{
 		side = 0;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		faction = "CPC_O_KAM";
 		crew = "CPC_ME_O_KAM_soldier_1";
@@ -747,7 +747,7 @@
 	{
 		side = 0;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		faction = "CPC_O_KAM";
 		crew = "CPC_ME_O_KAM_soldier_1";
@@ -759,7 +759,7 @@
 	{
 		side = 0;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		faction = "CPC_O_KAM";
 		crew = "CPC_ME_O_KAM_soldier_1";
@@ -771,7 +771,7 @@
 	{
 		side = 0;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		faction = "CPC_O_KAM";
 		crew = "CPC_ME_O_KAM_soldier_1";
@@ -783,7 +783,7 @@
 	{
 		side = 0;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		faction = "CPC_O_KAM";
 		crew = "CPC_ME_O_KAM_soldier_1";
@@ -795,7 +795,7 @@
 	{
 		side = 0;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		faction = "CPC_O_KAM";
 		crew = "CPC_ME_O_KAM_soldier_light";
@@ -807,7 +807,7 @@
 	{
 		side = 0;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		faction = "CPC_O_KAM";
 		crew = "CPC_ME_O_KAM_soldier_light";
@@ -819,7 +819,7 @@
 	{
 		side = 0;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		faction = "CPC_O_KAM";
 		crew = "CPC_ME_O_KAM_soldier_light";
@@ -831,7 +831,7 @@
 	{
 		side = 0;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		faction = "CPC_O_KAM";
 		crew = "CPC_ME_O_KAM_soldier_light";
@@ -843,7 +843,7 @@
 	{
 		side = 0;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		faction = "CPC_O_KAM";
 		crew = "CPC_ME_O_KAM_soldier_1";

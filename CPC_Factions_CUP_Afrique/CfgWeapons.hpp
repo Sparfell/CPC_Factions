@@ -10,11 +10,11 @@ class cfgWeapons
 	{
 		scope = 2;
 		scopeArsenal = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
 		displayName = "RACS Carrier Vest (Variant, no radio)";
 		picture = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Germany\data\ui\icon_v_carrier_vest_ca.paa";
-		model = "CPC\Factions\CPC_Factions_Afrique\CPC_Afrique_CarrierVest2.p3d";
+		model = "CPC\Factions\CPC_Factions_CUP_Afrique\CPC_Afrique_CarrierVest2.p3d";
 		hiddenSelections[] = {"camo1", "camo2"};
 		hiddenSelectionsTextures[] = {
 			"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_racs\data\racs_tex1_co.paa",
@@ -28,7 +28,7 @@ class cfgWeapons
 				"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_racs\data\racs_tex2_co.paa"
 			};
 			containerClass = "Supply90";
-			uniformModel = "CPC\Factions\CPC_Factions_Afrique\CPC_Afrique_CarrierVest2.p3d";
+			uniformModel = "CPC\Factions\CPC_Factions_CUP_Afrique\CPC_Afrique_CarrierVest2.p3d";
 			armor = 0;
 			passThrough = 1.0;
 			mass = 80;
@@ -40,7 +40,7 @@ class cfgWeapons
 	{
 		scope = 1;
 		scopeArsenal = 0;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
 		allowedSlots[] = { BACKPACK_SLOT };
 		displayName = "GFD Uniform (Desert)"; /// how would the stuff be displayed in inventory and on ground
@@ -60,7 +60,7 @@ class cfgWeapons
 	{
 		scope = 1;
 		scopeArsenal = 0;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
 		displayName = "GFD Pilot Overall";
 		class ItemInfo : UniformItem
@@ -76,11 +76,11 @@ class cfgWeapons
 	{
 		scope = 2;
 		scopeArsenal = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
 		displayName = "NPFD Uniform";
 		allowedSlots[] = { BACKPACK_SLOT };
-		picture = "\CPC\Factions\CPC_Factions_Afrique\data\UI\NPFD_Uniform_Africa.paa";
+		picture = "\CPC\Factions\CPC_Factions_CUP_Afrique\data\UI\NPFD_Uniform_Africa.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d"; /// how does the uniform look when put on ground
 		class ItemInfo : UniformItem
 		{
@@ -95,11 +95,11 @@ class cfgWeapons
 	{
 		scope = 2;
 		scopeArsenal = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
 		displayName = "Pirate Clothes";
 		allowedSlots[] = { BACKPACK_SLOT };
-		picture = "\CPC\Factions\CPC_Factions_Afrique\data\UI\Pirate_uniform_Africa.paa";
+		picture = "\CPC\Factions\CPC_Factions_CUP_Afrique\data\UI\Pirate_uniform_Africa.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d"; /// how does the uniform look when put on ground
 		class ItemInfo : UniformItem
 		{
@@ -114,11 +114,11 @@ class cfgWeapons
 	{
 		scope = 2;
 		scopeArsenal = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
 		displayName = "Pirate Clothes";
 		allowedSlots[] = { BACKPACK_SLOT };
-		picture = "\CPC\Factions\CPC_Factions_Afrique\data\UI\Pirate_uniform_Africa.paa";
+		picture = "\CPC\Factions\CPC_Factions_CUP_Afrique\data\UI\Pirate_uniform_Africa.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d"; /// how does the uniform look when put on ground
 		class ItemInfo : UniformItem
 		{
@@ -133,11 +133,11 @@ class cfgWeapons
 	{
 		scope = 2;
 		scopeArsenal = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
 		displayName = "Pirate Clothes";
 		allowedSlots[] = { BACKPACK_SLOT };
-		picture = "\CPC\Factions\CPC_Factions_Afrique\data\UI\Pirate_uniform_Africa.paa";
+		picture = "\CPC\Factions\CPC_Factions_CUP_Afrique\data\UI\Pirate_uniform_Africa.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d"; /// how does the uniform look when put on ground
 		class ItemInfo : UniformItem
 		{
@@ -153,19 +153,19 @@ class cfgWeapons
 	{
 		scope = 2;
 		scopeArsenal = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction" ;
 		displayName = "Booniehat (NPFD)";
-		picture = "\CPC\Factions\CPC_Factions_Afrique\data\UI\Booniehat_Africa.paa";
+		picture = "\CPC\Factions\CPC_Factions_CUP_Afrique\data\UI\Booniehat_Africa.paa";
 		model = "\A3\Characters_F\Common\booniehat.p3d";
 		hiddenSelections[]={"camo"};
-		hiddenSelectionsTextures[] = {"CPC\Factions\CPC_Factions_Afrique\data\NPFD_Booniehat.paa"};
+		hiddenSelectionsTextures[] = {"CPC\Factions\CPC_Factions_CUP_Afrique\data\NPFD_Booniehat.paa"};
 		allowedFacewear[] = {};
 		class ItemInfo : HeadgearItem
 		{
 			uniformModel = "A3\Characters_F\Common\booniehat.p3d";
 			hiddenSelections[]={"camo"};
-			hiddenSelectionsTextures[] = {"CPC\Factions\CPC_Factions_Afrique\data\NPFD_Booniehat.paa"};
+			hiddenSelectionsTextures[] = {"CPC\Factions\CPC_Factions_CUP_Afrique\data\NPFD_Booniehat.paa"};
 		};
 	};
 
@@ -173,18 +173,18 @@ class cfgWeapons
 	{
 		scope = 2;
 		scopeArsenal = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
 		displayName = "Officer Cap (NPFD)";
-		picture = "\CPC\Factions\CPC_Factions_Afrique\data\UI\cappatrol_Africa.paa";
+		picture = "\CPC\Factions\CPC_Factions_CUP_Afrique\data\UI\cappatrol_Africa.paa";
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Chedaki\CUP_Ins_OfficerCap.p3d";
 		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"CPC\Factions\CPC_Factions_Afrique\data\NPFD_cappatrol.paa"};
+		hiddenSelectionsTextures[] = {"CPC\Factions\CPC_Factions_CUP_Afrique\data\NPFD_cappatrol.paa"};
 		class ItemInfo : HeadgearItem {
 			mass = 10;
 			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Chedaki\CUP_Ins_OfficerCap.p3d";
 			hiddenSelections[] = {"camo"};
-			hiddenSelectionsTextures[] = {"CPC\Factions\CPC_Factions_Afrique\data\NPFD_cappatrol.paa"};
+			hiddenSelectionsTextures[] = {"CPC\Factions\CPC_Factions_CUP_Afrique\data\NPFD_cappatrol.paa"};
 			allowedSlots[] = {801, 901, 701, 605};
 			modelSides[] = {0, 3};
 			#include "\CPC\Factions\hitpoints_headno.h"

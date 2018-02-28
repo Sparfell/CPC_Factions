@@ -10,7 +10,7 @@
 		camouflage = 1.4;
 		minFireTime = 7;
 		cost = 300000;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		faction = "CPC_I_REB";
 		identityTypes[] = {"LanguagePER_F","Head_TK",""};
@@ -41,7 +41,7 @@
 	{
 		side = 2;
 		scope = 1;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		uniformClass = "CPC_ME_Uniform_M93_sand_2";
 		hiddenSelections[] = {"Camo"};
@@ -51,7 +51,7 @@
 	{
 		side = 2;
 		scope = 1;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		uniformClass = "CPC_ME_Uniform_M93_sand_3";
 		hiddenSelections[] = {"Camo"};
@@ -61,7 +61,7 @@
 	{
 		side = 2;
 		scope = 1;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		uniformClass = "CPC_ME_Uniform_M93_sand_4";
 		hiddenSelections[] = {"Camo"};
@@ -243,7 +243,7 @@
 	{
 		side = 2;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		faction = "CPC_I_REB";
 		crew = "CPC_ME_I_REB_soldier_1";
@@ -268,7 +268,7 @@
 	{
 		side = 2;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		faction = "CPC_I_REB";
 		crew = "CPC_ME_I_REB_soldier_4";
@@ -281,7 +281,7 @@
 	{
 		side = 2;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		faction = "CPC_I_REB";
 		crew = "CPC_ME_I_REB_soldier_2";
@@ -294,7 +294,7 @@
 	{
 		side = 2;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		faction = "CPC_I_REB";
 		crew = "CPC_ME_I_REB_soldier_4";
@@ -307,7 +307,7 @@
 	{
 		side = 2;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		faction = "CPC_I_REB";
 		crew = "CPC_ME_I_REB_soldier_1";
@@ -337,7 +337,7 @@
 	{
 		side = 2;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		faction = "CPC_I_REB";
 		crew = "CPC_ME_I_REB_soldier_3";
@@ -367,7 +367,7 @@
 	{
 		side = 2;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		faction = "CPC_I_REB";
 		crew = "CPC_ME_I_REB_soldier_1";
@@ -380,7 +380,7 @@
 	{
 		side = 2;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		faction = "CPC_I_REB";
 		crew = "CPC_ME_I_REB_soldier_1";
@@ -391,7 +391,7 @@
 	{
 		side = 2;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		faction = "CPC_I_REB";
 		crew = "CPC_ME_I_REB_soldier_2";
@@ -402,7 +402,7 @@
 	{
 		side = 2;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		faction = "CPC_I_REB";
 		crew = "CPC_ME_I_REB_soldier_3";
@@ -413,7 +413,7 @@
 	{
 		side = 2;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		faction = "CPC_I_REB";
 		crew = "CPC_ME_I_REB_soldier_4";
@@ -424,7 +424,7 @@
 	{
 		side = 2;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		faction = "CPC_I_REB";
 		crew = "CPC_ME_I_REB_soldier_4";
@@ -435,7 +435,7 @@
 	{
 		side = 2;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		faction = "CPC_I_REB";
 		crew = "CPC_ME_I_REB_soldier_1";
@@ -446,7 +446,7 @@
 	{
 		side = 2;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		faction = "CPC_I_REB";
 		crew = "CPC_ME_I_REB_soldier_2";
@@ -457,7 +457,7 @@
 	{
 		side = 2;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		faction = "CPC_I_REB";
 		crew = "CPC_ME_I_REB_soldier_3";
@@ -468,7 +468,7 @@
 	{
 		side = 2;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		faction = "CPC_I_REB";
 		crew = "CPC_ME_I_REB_soldier_4";
@@ -479,7 +479,7 @@
 	{
 		side = 2;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		faction = "CPC_I_REB";
 		crew = "CPC_ME_I_REB_soldier_2";
@@ -490,7 +490,7 @@
 	{
 		side = 2;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		faction = "CPC_I_REB";
 		crew = "CPC_ME_I_REB_soldier_1";

@@ -9,7 +9,7 @@ class cfgWeapons
 	{
 		scope = 2;
 		scopeArsenal = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		displayName = "M93 (Snow)";
 		picture = "\rhsafrf\addons\rhs_infantry\Data\inventory\gear_icon_flora_ca.paa";
@@ -27,7 +27,7 @@ class cfgWeapons
 	{
 		scope = 2;
 		scopeArsenal = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		displayName = "M10 (Snow)";
 		class ItemInfo: UniformItem
@@ -46,12 +46,12 @@ class cfgWeapons
 	{
 		scope = 2;
 		scopeArsenal = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		displayName = "OTV (Snow)";
 		picture = "\A3\characters_f_Beta\Data\UI\icon_V_I_Vest_01_ca.paa";
 		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"\CPC\Factions\CPC_Factions_Snow\Data\vest_1_02.paa"};
+		hiddenSelectionsTextures[] = {"\CPC\Factions\CPC_Factions_RHS_Snow\Data\vest_1_02.paa"};
 		model = "A3\Characters_F_Beta\INDEP\equip_ia_vest01";
 		class ItemInfo: VestItem
 		{
@@ -101,19 +101,19 @@ class cfgWeapons
 	{
 		scope = 2;
 		scopeArsenal = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		displayName = "Beanie (Grey)";
-		hiddenSelectionsTextures[] = {"\CPC\Factions\CPC_Factions_Snow\Data\beanie_1_01.paa"};
+		hiddenSelectionsTextures[] = {"\CPC\Factions\CPC_Factions_RHS_Snow\Data\beanie_1_01.paa"};
 	};
 	class rhsusf_lwh_helmet_marpatd;
 	class CPC_Snow_Helmet_1 : rhsusf_lwh_helmet_marpatd
 	{
 		scope = 2;
 		scopeArsenal = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		displayName = "LWH (Snow)";
-		hiddenSelectionsTextures[] = {"\CPC\Factions\CPC_Factions_Snow\Data\helmet1_02.paa"};
+		hiddenSelectionsTextures[] = {"\CPC\Factions\CPC_Factions_RHS_Snow\Data\helmet1_02.paa"};
 	};
 };

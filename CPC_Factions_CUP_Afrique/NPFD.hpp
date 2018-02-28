@@ -11,7 +11,7 @@
 		camouflage = 1.1;
 		minFireTime = 7;
 		cost = 150000;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
 		faction = "CPC_O_NPFD";
 		identityTypes[] = {"LanguageGRE_F","Head_African",""};
@@ -21,7 +21,7 @@
 		RespawnItems[] = {"FirstAidKit"};
 		hiddenSelectionsTextures[] = {
 //			"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_SLA\data\partisans\part_ttsko_full_co.paa"
-			"\CPC\Factions\CPC_Factions_Afrique\Data\NPFD_uniform.paa"
+			"\CPC\Factions\CPC_Factions_CUP_Afrique\Data\NPFD_uniform.paa"
 		};
 		icon = "iconMan";
 		headgearList[] =
@@ -255,7 +255,7 @@
 	{
 		side = 0;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
 		faction = "CPC_O_NPFD";
 		crew = "CPC_Duala_O_NPFD_soldier_1";
@@ -287,7 +287,7 @@
 	{
 		side = 0;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
 		faction = "CPC_O_NPFD";
 		crew = "CPC_Duala_O_NPFD_soldier_3";
@@ -316,7 +316,7 @@
 	{
 		side = 0;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
 		faction = "CPC_O_NPFD";
 		crew = "CPC_Duala_O_NPFD_soldier_3";
@@ -327,7 +327,7 @@
 	{
 		side = 0;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
 		faction = "CPC_O_NPFD";
 		crew = "CPC_Duala_O_NPFD_soldier_2";
@@ -338,7 +338,7 @@
 		side = 0;
 		scope = 2;
 		displayName = "Ural (Green)";
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
 		faction = "CPC_O_NPFD";
 		crew = "CPC_Duala_O_NPFD_soldier_1";
@@ -354,7 +354,7 @@
 	{
 		side = 0;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
 		faction = "CPC_O_NPFD";
 		crew = "CPC_Duala_O_NPFD_soldier_3";
@@ -365,7 +365,7 @@
 	{
 		side = 0;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
 		faction = "CPC_O_NPFD";
 		crew = "CPC_Duala_O_NPFD_soldier_2";
@@ -376,7 +376,7 @@
 		side = 0;
 		scope = 2;
 		displayName = "Ural (Green)(Open)";
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
 		faction = "CPC_O_NPFD";
 		crew = "CPC_Duala_O_NPFD_soldier_1";
@@ -391,7 +391,7 @@
 	{
 		side = 0;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
 		faction = "CPC_O_NPFD";
 		crew = "CPC_Duala_O_NPFD_soldier_2";
@@ -405,7 +405,7 @@
 	{
 		side = 0;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
 		faction = "CPC_O_NPFD";
 		crew = "CPC_Duala_O_NPFD_soldier_1";
@@ -416,7 +416,7 @@
 	{
 		side = 0;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
 		faction = "CPC_O_NPFD";
 		crew = "CPC_Duala_O_NPFD_soldier_1";
@@ -428,7 +428,7 @@
 	{
 		side = 0;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
 		faction = "CPC_O_NPFD";
 		crew = "CPC_Duala_O_NPFD_soldier_1";
@@ -438,7 +438,7 @@
 	{
 		side = 0;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
 		faction = "CPC_O_NPFD";
 		crew = "CPC_Duala_O_NPFD_soldier_2";
@@ -448,7 +448,7 @@
 	{
 		side = 0;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
 		faction = "CPC_O_NPFD";
 		crew = "CPC_Duala_O_NPFD_soldier_3";
@@ -458,7 +458,7 @@
 	{
 		side = 0;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
 		faction = "CPC_O_NPFD";
 		crew = "CPC_Duala_O_NPFD_soldier_5";
@@ -468,7 +468,7 @@
 	{
 		side = 0;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
 		faction = "CPC_O_NPFD";
 		crew = "CPC_Duala_O_NPFD_soldier_1";
@@ -486,7 +486,7 @@
 	{
 		side = 0;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
 		faction = "CPC_O_NPFD";
 		crew = "CPC_Duala_O_NPFD_soldier_2";

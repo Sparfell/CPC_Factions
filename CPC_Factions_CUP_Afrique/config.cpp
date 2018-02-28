@@ -152,7 +152,7 @@ class CfgFactionClasses
 	{
 		displayName = "GFD";
 		author = "CPC Faction";
-		icon = "CPC\Factions\CPC_Factions_Afrique\data\icon_flag_GFD.paa";
+		icon = "CPC\Factions\CPC_Factions_CUP_Afrique\data\icon_flag_GFD.paa";
 		priority = 1;
 		side = 1;
 	};
@@ -160,7 +160,7 @@ class CfgFactionClasses
 	{
 		displayName = "NPFD";
 		author = "CPC Faction";
-		icon = "CPC\Factions\CPC_Factions_Afrique\data\icon_flag_GFD.paa";
+		icon = "CPC\Factions\CPC_Factions_CUP_Afrique\data\icon_flag_GFD.paa";
 		priority = 1;
 		side = 0;
 	};
@@ -168,7 +168,7 @@ class CfgFactionClasses
 	{
 		displayName = "Pirates";
 		author = "CPC Faction";
-		icon = "CPC\Factions\CPC_Factions_Afrique\data\icon_flag_GFD.paa";
+		icon = "CPC\Factions\CPC_Factions_CUP_Afrique\data\icon_flag_GFD.paa";
 		priority = 1;
 		side = 2;
 	};

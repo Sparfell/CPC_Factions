@@ -11,7 +11,7 @@
 		camouflage = 1.4;
 		minFireTime = 7;
 		cost = 300000;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
 		faction = "CPC_B_GFD";
 		identityTypes[] = {"LanguageGRE_F","Head_African",""};
@@ -271,7 +271,7 @@
 	{
 		side = 1;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
 		faction = "CPC_B_GFD";
 		crew = "CPC_Duala_B_GFD_soldier_crew";
@@ -283,7 +283,7 @@
 	{
 		side = 1;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
 		faction = "CPC_B_GFD";
 		crew = "CPC_Duala_B_GFD_soldier_crew";
@@ -295,7 +295,7 @@
 	{
 		side = 1;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
 		faction = "CPC_B_GFD";
 		crew = "CPC_Duala_B_GFD_soldier_crew";
@@ -308,7 +308,7 @@
 	{
 		side = 1;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
 		faction = "CPC_B_GFD";
 		crew = "CPC_Duala_B_GFD_soldier_crew";
@@ -324,7 +324,7 @@
 	{
 		side = 1;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
 		faction = "CPC_B_GFD";
 		crew = "CPC_Duala_B_GFD_soldier_crew";
@@ -341,7 +341,7 @@
 	{
 		side = 1;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
 		faction = "CPC_B_GFD";
 		crew = "CPC_Duala_B_GFD_soldier_Pilot";
@@ -353,19 +353,19 @@
 	{
 		side = 1;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
 		faction = "CPC_B_GFD";
 		crew = "CPC_Duala_B_GFD_soldier_HeliPilot";
 		typicalCargo[] = {"CPC_Duala_B_GFD_soldier_1","CPC_Duala_B_GFD_soldier_1","CPC_Duala_B_GFD_soldier_GL","CPC_Duala_B_GFD_soldier_TL"};
-		hiddenSelectionsTextures[] = {"CPC\Factions\CPC_Factions_Afrique\data\330_skin00x_racs.paa"};
+		hiddenSelectionsTextures[] = {"CPC\Factions\CPC_Factions_CUP_Afrique\data\330_skin00x_racs.paa"};
 	};
 	class CUP_UH1H_base;
 	class CPC_Duala_B_GFD_UH1H : CUP_UH1H_base
 	{
 		side = 1;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
 		faction = "CPC_B_GFD";
 		crew = "CPC_Duala_B_GFD_soldier_HeliPilot";
@@ -382,7 +382,7 @@
 	{
 		side = 1;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
 		faction = "CPC_B_GFD";
 		crew = "CPC_Duala_B_GFD_soldier_1";
@@ -398,7 +398,7 @@
 	{
 		side = 1;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
 		faction = "CPC_B_GFD";
 		crew = "CPC_Duala_B_GFD_soldier_1";
@@ -414,7 +414,7 @@
 	{
 		side = 1;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
 		faction = "CPC_B_GFD";
 		crew = "CPC_Duala_B_GFD_soldier_Medic";
@@ -431,7 +431,7 @@
 	{
 		side = 1;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
 		faction = "CPC_B_GFD";
 		crew = "CPC_Duala_B_GFD_soldier_1";
@@ -447,7 +447,7 @@
 	{
 		side = 1;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
 		faction = "CPC_B_GFD";
 		crew = "CPC_Duala_B_GFD_soldier_1";
@@ -459,7 +459,7 @@
 	{
 		side = 1;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
 		faction = "CPC_B_GFD";
 		crew = "CPC_Duala_B_GFD_soldier_1";
@@ -471,7 +471,7 @@
 	{
 		side = 1;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
 		faction = "CPC_B_GFD";
 		crew = "CPC_Duala_B_GFD_soldier_crew";
@@ -484,7 +484,7 @@
 	{
 		side = 1;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
 		faction = "CPC_B_GFD";
 		crew = "CPC_Duala_B_GFD_soldier_1";
@@ -495,7 +495,7 @@
 	{
 		side = 1;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
 		faction = "CPC_B_GFD";
 		crew = "CPC_Duala_B_GFD_soldier_1";
@@ -506,7 +506,7 @@
 	{
 		side = 1;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
 		faction = "CPC_B_GFD";
 		crew = "CPC_Duala_B_GFD_soldier_1";
@@ -517,7 +517,7 @@
 	{
 		side = 1;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
 		faction = "CPC_B_GFD";
 		crew = "CPC_Duala_B_GFD_soldier_1";
@@ -528,7 +528,7 @@
 	{
 		side = 1;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
 		faction = "CPC_B_GFD";
 		crew = "CPC_Duala_B_GFD_soldier_1";
@@ -539,7 +539,7 @@
 	{
 		side = 1;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
 		faction = "CPC_B_GFD";
 		crew = "CPC_Duala_B_GFD_soldier_1";
@@ -550,7 +550,7 @@
 	{
 		side = 1;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
 		faction = "CPC_B_GFD";
 		crew = "CPC_Duala_B_GFD_soldier_1";
@@ -561,7 +561,7 @@
 	{
 		side = 1;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
 		faction = "CPC_B_GFD";
 		crew = "CPC_Duala_B_GFD_soldier_1";
@@ -572,7 +572,7 @@
 	{
 		side = 1;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
 		faction = "CPC_B_GFD";
 		crew = "CPC_Duala_B_GFD_soldier_2";
@@ -591,7 +591,7 @@
 	{
 		side = 1;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
 		faction = "CPC_B_GFD";
 		crew = "CPC_Duala_B_GFD_soldier_2";
@@ -611,7 +611,7 @@
 	{
 		side = 1;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
 		faction = "CPC_B_GFD";
 		crew = "CPC_Duala_B_GFD_soldier_2";
@@ -631,7 +631,7 @@
 	{
 		side = 1;
 		scope = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_CUP";
 		author = "CPC Faction";
 		faction = "CPC_B_GFD";
 		crew = "CPC_Duala_B_GFD_soldier_2";

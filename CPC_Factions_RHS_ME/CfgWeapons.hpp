@@ -36,7 +36,7 @@ class cfgWeapons
 	{
 		scope = 1;
 		scopeArsenal = 0;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		displayName = "M93 (3-Color Desert)";
 		picture = "\rhsafrf\addons\rhs_infantry\Data\inventory\gear_icon_flora_ca.paa";
@@ -53,7 +53,7 @@ class cfgWeapons
 	{
 		scope = 2;
 		scopeArsenal = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		displayName = "M93 (Sand 1)";
 		picture = "\rhsafrf\addons\rhs_infantry\Data\inventory\gear_icon_flora_ca.paa";
@@ -70,7 +70,7 @@ class cfgWeapons
 	{
 		scope = 2;
 		scopeArsenal = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		displayName = "M93 (Sand 2)";
 		picture = "\rhsafrf\addons\rhs_infantry\Data\inventory\gear_icon_flora_ca.paa";
@@ -87,7 +87,7 @@ class cfgWeapons
 	{
 		scope = 2;
 		scopeArsenal = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		displayName = "M93 (Sand 3)";
 		picture = "\rhsafrf\addons\rhs_infantry\Data\inventory\gear_icon_flora_ca.paa";
@@ -104,7 +104,7 @@ class cfgWeapons
 	{
 		scope = 2;
 		scopeArsenal = 2;
-		dlc = "CPC_Factions";
+		dlc = "CPC_Factions_RHS";
 		author = "CPC Faction";
 		displayName = "M93 (Sand 4)";
 		picture = "\rhsafrf\addons\rhs_infantry\Data\inventory\gear_icon_flora_ca.paa";
