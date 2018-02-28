@@ -19,63 +19,63 @@ class cfgGroups
 						side = 1;
 						vehicle = "CPC_ME_B_DAM_soldier_TL";
 						rank = "LIEUTENANT";
-						position[] = {0,5,0};
+						position[] = {0,2,0};
 					};
 					class Unit1
 					{
 						side = 1;
 						vehicle = "CPC_ME_B_DAM_soldier_MG";
 						rank = "SERGEANT";
-						position[] = {3,0,0};
+						position[] = {2,0,0};
 					};
 					class Unit2
 					{
 						side = 1;
 						vehicle = "CPC_ME_B_DAM_soldier_AT";
 						rank = "CORPORAL";
-						position[] = {5,0,0};
+						position[] = {4,0,0};
 					};
 					class Unit3
 					{
 						side = 1;
 						vehicle = "CPC_ME_B_DAM_soldier_GL";
 						rank = "CORPORAL";
-						position[] = {7,0,0};
+						position[] = {6,0,0};
 					};
 					class Unit4
 					{
 						side = 1;
 						vehicle = "CPC_ME_B_DAM_soldier_AR";
 						rank = "CORPORAL";
-						position[] = {9,0,0};
+						position[] = {8,0,0};
 					};
 					class Unit5
 					{
 						side = 1;
 						vehicle = "CPC_ME_B_DAM_soldier_LAT";
 						rank = "CORPORAL";
-						position[] = {11,0,0};
+						position[] = {2,-2,0};
 					};
 					class Unit6
 					{
 						side = 1;
 						vehicle = "CPC_ME_B_DAM_soldier_GL";
 						rank = "PRIVATE";
-						position[] = {13,0,0};
+						position[] = {4,-2,0};
 					};
 					class Unit7
 					{
 						side = 1;
 						vehicle = "CPC_ME_B_DAM_soldier_AAT";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {6,-2,0};
 					};
 					class Unit8
 					{
 						side = 1;
 						vehicle = "CPC_ME_B_DAM_soldier_1";
 						rank = "PRIVATE";
-						position[] = {17,0,0};
+						position[] = {8,-2,0};
 					};
 				};
 				class CPC_B_DAM_InfantryPatrol
@@ -89,21 +89,21 @@ class cfgGroups
 						side = 1;
 						vehicle = "CPC_ME_B_DAM_soldier_TL";
 						rank = "CORPORAL";
-						position[] = {0,5,0};
+						position[] = {0,2,0};
 					};
 					class Unit1
 					{
 						side = 1;
 						vehicle = "CPC_ME_B_DAM_soldier_1";
 						rank = "PRIVATE";
-						position[] = {3,0,0};
+						position[] = {2,0,0};
 					};
 					class Unit2
 					{
 						side = 1;
 						vehicle = "CPC_ME_B_DAM_soldier_LAT";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {4,0,0};
 					};
 				};
 				class CPC_B_DAM_InfantrySection
@@ -117,28 +117,28 @@ class cfgGroups
 						side = 1;
 						vehicle = "CPC_ME_B_DAM_soldier_TL";
 						rank = "CORPORAL";
-						position[] = {0,5,0};
+						position[] = {0,2,0};
 					};
 					class Unit1
 					{
 						side = 1;
 						vehicle = "CPC_ME_B_DAM_soldier_AR";
 						rank = "CORPORAL";
-						position[] = {3,0,0};
+						position[] = {2,0,0};
 					};
 					class Unit2
 					{
 						side = 1;
 						vehicle = "CPC_ME_B_DAM_soldier_1";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {4,0,0};
 					};
 					class Unit3
 					{
 						side = 1;
 						vehicle = "CPC_ME_B_DAM_soldier_1";
 						rank = "PRIVATE";
-						position[] = {7,0,0};
+						position[] = {6,0,0};
 					};
 				};
 				class CPC_B_DAM_InfantrySectionAT
@@ -152,35 +152,35 @@ class cfgGroups
 						side = 1;
 						vehicle = "CPC_ME_B_DAM_soldier_TL";
 						rank = "SERGEANT";
-						position[] = {0,5,0};
+						position[] = {0,2,0};
 					};
 					class Unit1
 					{
 						side = 1;
 						vehicle = "CPC_ME_B_DAM_soldier_AT";
 						rank = "CORPORAL";
-						position[] = {3,0,0};
+						position[] = {2,0,0};
 					};
 					class Unit2
 					{
 						side = 1;
 						vehicle = "CPC_ME_B_DAM_soldier_AT";
 						rank = "CORPORAL";
-						position[] = {5,0,0};
+						position[] = {4,0,0};
 					};
 					class Unit3
 					{
 						side = 1;
 						vehicle = "CPC_ME_B_DAM_soldier_LAT";
 						rank = "CORPORAL";
-						position[] = {7,0,0};
+						position[] = {6,0,0};
 					};
 					class Unit4
 					{
 						side = 1;
 						vehicle = "CPC_ME_B_DAM_soldier_AAT";
 						rank = "PRIVATE";
-						position[] = {9,0,0};
+						position[] = {8,0,0};
 					};
 				};
 				class CPC_B_DAM_InfantrySectionAA
@@ -194,21 +194,21 @@ class cfgGroups
 						side = 1;
 						vehicle = "CPC_ME_B_DAM_soldier_TL";
 						rank = "LIEUTENANT";
-						position[] = {0,5,0};
+						position[] = {0,2,0};
 					};
 					class Unit1
 					{
 						side = 1;
 						vehicle = "CPC_ME_B_DAM_soldier_AA";
 						rank = "SERGEANT";
-						position[] = {3,0,0};
+						position[] = {2,0,0};
 					};
 					class Unit2
 					{
 						side = 1;
 						vehicle = "CPC_ME_B_DAM_soldier_AA";
 						rank = "SERGEANT";
-						position[] = {5,0,0};
+						position[] = {4,0,0};
 					};
 				};
 				class CPC_B_DAM_InfantrySectionMG
@@ -222,35 +222,35 @@ class cfgGroups
 						side = 1;
 						vehicle = "CPC_ME_B_DAM_soldier_TL";
 						rank = "CORPORAL";
-						position[] = {0,5,0};
+						position[] = {0,2,0};
 					};
 					class Unit1
 					{
 						side = 1;
 						vehicle = "CPC_ME_B_DAM_soldier_MG";
 						rank = "CORPORAL";
-						position[] = {3,0,0};
+						position[] = {2,0,0};
 					};
 					class Unit2
 					{
 						side = 1;
 						vehicle = "CPC_ME_B_DAM_soldier_MG";
 						rank = "CORPORAL";
-						position[] = {5,0,0};
+						position[] = {4,0,0};
 					};
 					class Unit3
 					{
 						side = 1;
 						vehicle = "CPC_ME_B_DAM_soldier_LAT";
 						rank = "PRIVATE";
-						position[] = {7,0,0};
+						position[] = {6,0,0};
 					};
 					class Unit4
 					{
 						side = 1;
 						vehicle = "CPC_ME_B_DAM_soldier_1";
 						rank = "PRIVATE";
-						position[] = {9,0,0};
+						position[] = {8,0,0};
 					};
 				};
 				class CPC_B_DAM_SniperTeam
@@ -264,14 +264,14 @@ class cfgGroups
 						side = 1;
 						vehicle = "CPC_ME_B_DAM_soldier_M";
 						rank = "SERGEANT";
-						position[] = {0,5,0};
+						position[] = {0,2,0};
 					};
 					class Unit1
 					{
 						side = 1;
 						vehicle = "CPC_ME_B_DAM_soldier_M";
 						rank = "SERGEANT";
-						position[] = {3,0,0};
+						position[] = {2,0,0};
 					};
 				};
 			};
@@ -633,63 +633,63 @@ class cfgGroups
 						side = 0;
 						vehicle = "CPC_ME_O_KAM_soldier_TL";
 						rank = "LIEUTENANT";
-						position[] = {0,5,0};
+						position[] = {0,2,0};
 					};
 					class Unit1
 					{
 						side = 0;
 						vehicle = "CPC_ME_O_KAM_soldier_MG";
 						rank = "SERGEANT";
-						position[] = {3,0,0};
+						position[] = {2,0,0};
 					};
 					class Unit2
 					{
 						side = 0;
 						vehicle = "CPC_ME_O_KAM_soldier_AT";
 						rank = "CORPORAL";
-						position[] = {5,0,0};
+						position[] = {4,0,0};
 					};
 					class Unit3
 					{
 						side = 0;
 						vehicle = "CPC_ME_O_KAM_soldier_GL";
 						rank = "CORPORAL";
-						position[] = {7,0,0};
+						position[] = {6,0,0};
 					};
 					class Unit4
 					{
 						side = 0;
 						vehicle = "CPC_ME_O_KAM_soldier_AMG";
 						rank = "CORPORAL";
-						position[] = {9,0,0};
+						position[] = {8,0,0};
 					};
 					class Unit5
 					{
 						side = 0;
 						vehicle = "CPC_ME_O_KAM_soldier_LAT";
 						rank = "CORPORAL";
-						position[] = {11,0,0};
+						position[] = {2,-2,0};
 					};
 					class Unit6
 					{
 						side = 0;
 						vehicle = "CPC_ME_O_KAM_soldier_M";
 						rank = "PRIVATE";
-						position[] = {13,0,0};
+						position[] = {4,-2,0};
 					};
 					class Unit7
 					{
 						side = 0;
 						vehicle = "CPC_ME_O_KAM_soldier_AAT";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {6,-2,0};
 					};
 					class Unit8
 					{
 						side = 0;
 						vehicle = "CPC_ME_O_KAM_soldier_1";
 						rank = "PRIVATE";
-						position[] = {17,0,0};
+						position[] = {8,-2,0};
 					};
 				};
 				class CPC_O_KAM_InfantryPatrol
@@ -703,21 +703,21 @@ class cfgGroups
 						side = 0;
 						vehicle = "CPC_ME_O_KAM_soldier_TL";
 						rank = "CORPORAL";
-						position[] = {0,5,0};
+						position[] = {0,2,0};
 					};
 					class Unit1
 					{
 						side = 0;
 						vehicle = "CPC_ME_O_KAM_soldier_1";
 						rank = "PRIVATE";
-						position[] = {3,0,0};
+						position[] = {2,0,0};
 					};
 					class Unit2
 					{
 						side = 0;
 						vehicle = "CPC_ME_O_KAM_soldier_LAT";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {4,0,0};
 					};
 				};
 				class CPC_O_KAM_InfantrySection
@@ -731,28 +731,28 @@ class cfgGroups
 						side = 0;
 						vehicle = "CPC_ME_O_KAM_soldier_TL";
 						rank = "CORPORAL";
-						position[] = {0,5,0};
+						position[] = {0,2,0};
 					};
 					class Unit1
 					{
 						side = 0;
 						vehicle = "CPC_ME_O_KAM_soldier_LAT";
 						rank = "CORPORAL";
-						position[] = {3,0,0};
+						position[] = {2,0,0};
 					};
 					class Unit2
 					{
 						side = 0;
 						vehicle = "CPC_ME_O_KAM_soldier_GL";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {4,0,0};
 					};
 					class Unit3
 					{
 						side = 0;
 						vehicle = "CPC_ME_O_KAM_soldier_1";
 						rank = "PRIVATE";
-						position[] = {7,0,0};
+						position[] = {6,0,0};
 					};
 				};
 				class CPC_O_KAM_InfantrySectionAT
@@ -766,35 +766,35 @@ class cfgGroups
 						side = 0;
 						vehicle = "CPC_ME_O_KAM_soldier_TL";
 						rank = "SERGEANT";
-						position[] = {0,5,0};
+						position[] = {0,2,0};
 					};
 					class Unit1
 					{
 						side = 0;
 						vehicle = "CPC_ME_O_KAM_soldier_AT";
 						rank = "CORPORAL";
-						position[] = {3,0,0};
+						position[] = {2,0,0};
 					};
 					class Unit2
 					{
 						side = 0;
 						vehicle = "CPC_ME_O_KAM_soldier_AT";
 						rank = "CORPORAL";
-						position[] = {5,0,0};
+						position[] = {4,0,0};
 					};
 					class Unit3
 					{
 						side = 0;
 						vehicle = "CPC_ME_O_KAM_soldier_LAT";
 						rank = "CORPORAL";
-						position[] = {7,0,0};
+						position[] = {6,0,0};
 					};
 					class Unit4
 					{
 						side = 0;
 						vehicle = "CPC_ME_O_KAM_soldier_AAT";
 						rank = "PRIVATE";
-						position[] = {9,0,0};
+						position[] = {8,0,0};
 					};
 				};
 				class CPC_O_KAM_InfantrySectionAA
@@ -808,21 +808,21 @@ class cfgGroups
 						side = 0;
 						vehicle = "CPC_ME_O_KAM_soldier_TL";
 						rank = "LIEUTENANT";
-						position[] = {0,5,0};
+						position[] = {0,2,0};
 					};
 					class Unit1
 					{
 						side = 0;
 						vehicle = "CPC_ME_O_KAM_soldier_AA";
 						rank = "SERGEANT";
-						position[] = {3,0,0};
+						position[] = {2,0,0};
 					};
 					class Unit2
 					{
 						side = 0;
 						vehicle = "CPC_ME_O_KAM_soldier_AA";
 						rank = "SERGEANT";
-						position[] = {5,0,0};
+						position[] = {4,0,0};
 					};
 				};
 				class CPC_O_KAM_InfantrySectionMG
@@ -836,35 +836,35 @@ class cfgGroups
 						side = 0;
 						vehicle = "CPC_ME_O_KAM_soldier_TL";
 						rank = "CORPORAL";
-						position[] = {0,5,0};
+						position[] = {0,2,0};
 					};
 					class Unit1
 					{
 						side = 0;
 						vehicle = "CPC_ME_O_KAM_soldier_MG";
 						rank = "CORPORAL";
-						position[] = {3,0,0};
+						position[] = {2,0,0};
 					};
 					class Unit2
 					{
 						side = 0;
 						vehicle = "CPC_ME_O_KAM_soldier_MG";
 						rank = "CORPORAL";
-						position[] = {5,0,0};
+						position[] = {4,0,0};
 					};
 					class Unit3
 					{
 						side = 0;
 						vehicle = "CPC_ME_O_KAM_soldier_LAT";
 						rank = "PRIVATE";
-						position[] = {7,0,0};
+						position[] = {6,0,0};
 					};
 					class Unit4
 					{
 						side = 0;
 						vehicle = "CPC_ME_O_KAM_soldier_1";
 						rank = "PRIVATE";
-						position[] = {9,0,0};
+						position[] = {8,0,0};
 					};
 				};
 				class CPC_O_KAM_SniperTeam
@@ -878,14 +878,14 @@ class cfgGroups
 						side = 0;
 						vehicle = "CPC_ME_O_KAM_soldier_M";
 						rank = "SERGEANT";
-						position[] = {0,5,0};
+						position[] = {0,2,0};
 					};
 					class Unit1
 					{
 						side = 0;
 						vehicle = "CPC_ME_O_KAM_soldier_M";
 						rank = "SERGEANT";
-						position[] = {3,0,0};
+						position[] = {2,0,0};
 					};
 				};
 			};
@@ -1368,63 +1368,63 @@ class cfgGroups
 						side = 2;
 						vehicle = "CPC_ME_I_REB_soldier_TL";
 						rank = "LIEUTENANT";
-						position[] = {0,5,0};
+						position[] = {0,2,0};
 					};
 					class Unit1
 					{
 						side = 2;
 						vehicle = "CPC_ME_I_REB_soldier_MG";
 						rank = "SERGEANT";
-						position[] = {3,0,0};
+						position[] = {2,0,0};
 					};
 					class Unit2
 					{
 						side = 2;
 						vehicle = "CPC_ME_I_REB_soldier_AT";
 						rank = "CORPORAL";
-						position[] = {5,0,0};
+						position[] = {4,0,0};
 					};
 					class Unit3
 					{
 						side = 2;
 						vehicle = "CPC_ME_I_REB_soldier_GL";
 						rank = "CORPORAL";
-						position[] = {7,0,0};
+						position[] = {6,0,0};
 					};
 					class Unit4
 					{
 						side = 2;
 						vehicle = "CPC_ME_I_REB_soldier_2";
 						rank = "CORPORAL";
-						position[] = {9,0,0};
+						position[] = {8,0,0};
 					};
 					class Unit5
 					{
 						side = 2;
 						vehicle = "CPC_ME_I_REB_soldier_LAT1";
 						rank = "CORPORAL";
-						position[] = {11,0,0};
+						position[] = {2,-2,0};
 					};
 					class Unit6
 					{
 						side = 2;
 						vehicle = "CPC_ME_I_REB_soldier_3";
 						rank = "PRIVATE";
-						position[] = {13,0,0};
+						position[] = {4,-2,0};
 					};
 					class Unit7
 					{
 						side = 2;
 						vehicle = "CPC_ME_I_REB_soldier_AAT";
 						rank = "PRIVATE";
-						position[] = {15,0,0};
+						position[] = {6,-2,0};
 					};
 					class Unit8
 					{
 						side = 2;
 						vehicle = "CPC_ME_I_REB_soldier_1";
 						rank = "PRIVATE";
-						position[] = {17,0,0};
+						position[] = {8,-2,0};
 					};
 				};
 				class CPC_I_REB_InfantryPatrol
@@ -1438,21 +1438,21 @@ class cfgGroups
 						side = 2;
 						vehicle = "CPC_ME_I_REB_soldier_TL";
 						rank = "CORPORAL";
-						position[] = {0,5,0};
+						position[] = {0,2,0};
 					};
 					class Unit1
 					{
 						side = 2;
 						vehicle = "CPC_ME_I_REB_soldier_1";
 						rank = "PRIVATE";
-						position[] = {3,0,0};
+						position[] = {2,0,0};
 					};
 					class Unit2
 					{
 						side = 2;
 						vehicle = "CPC_ME_I_REB_soldier_LAT2";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {4,0,0};
 					};
 				};
 				class CPC_I_REB_InfantrySentry
@@ -1466,14 +1466,14 @@ class cfgGroups
 						side = 2;
 						vehicle = "CPC_ME_I_REB_soldier_1";
 						rank = "CORPORAL";
-						position[] = {0,5,0};
+						position[] = {0,2,0};
 					};
 					class Unit1
 					{
 						side = 2;
 						vehicle = "CPC_ME_I_REB_soldier_2";
 						rank = "PRIVATE";
-						position[] = {3,0,0};
+						position[] = {2,0,0};
 					};
 				};
 				class CPC_I_REB_InfantrySection
@@ -1487,28 +1487,28 @@ class cfgGroups
 						side = 2;
 						vehicle = "CPC_ME_I_REB_soldier_TL";
 						rank = "CORPORAL";
-						position[] = {0,5,0};
+						position[] = {0,2,0};
 					};
 					class Unit1
 					{
 						side = 2;
 						vehicle = "CPC_ME_I_REB_soldier_2";
 						rank = "CORPORAL";
-						position[] = {3,0,0};
+						position[] = {2,0,0};
 					};
 					class Unit2
 					{
 						side = 2;
 						vehicle = "CPC_ME_I_REB_soldier_3";
 						rank = "PRIVATE";
-						position[] = {5,0,0};
+						position[] = {4,0,0};
 					};
 					class Unit3
 					{
 						side = 2;
 						vehicle = "CPC_ME_I_REB_soldier_1";
 						rank = "PRIVATE";
-						position[] = {7,0,0};
+						position[] = {6,0,0};
 					};
 				};
 				class CPC_I_REB_InfantrySectionAT
@@ -1522,35 +1522,35 @@ class cfgGroups
 						side = 2;
 						vehicle = "CPC_ME_I_REB_soldier_TL";
 						rank = "SERGEANT";
-						position[] = {0,5,0};
+						position[] = {0,2,0};
 					};
 					class Unit1
 					{
 						side = 2;
 						vehicle = "CPC_ME_I_REB_soldier_AT";
 						rank = "CORPORAL";
-						position[] = {3,0,0};
+						position[] = {2,0,0};
 					};
 					class Unit2
 					{
 						side = 2;
 						vehicle = "CPC_ME_I_REB_soldier_AT";
 						rank = "CORPORAL";
-						position[] = {5,0,0};
+						position[] = {4,0,0};
 					};
 					class Unit3
 					{
 						side = 2;
 						vehicle = "CPC_ME_I_REB_soldier_LAT1";
 						rank = "CORPORAL";
-						position[] = {7,0,0};
+						position[] = {6,0,0};
 					};
 					class Unit4
 					{
 						side = 2;
 						vehicle = "CPC_ME_I_REB_soldier_AAT";
 						rank = "PRIVATE";
-						position[] = {9,0,0};
+						position[] = {8,0,0};
 					};
 				};
 				class CPC_I_REB_InfantrySectionMG
@@ -1564,28 +1564,28 @@ class cfgGroups
 						side = 2;
 						vehicle = "CPC_ME_I_REB_soldier_TL";
 						rank = "CORPORAL";
-						position[] = {0,5,0};
+						position[] = {0,2,0};
 					};
 					class Unit1
 					{
 						side = 2;
 						vehicle = "CPC_ME_I_REB_soldier_MG";
 						rank = "CORPORAL";
-						position[] = {3,0,0};
+						position[] = {2,0,0};
 					};
 					class Unit2
 					{
 						side = 2;
 						vehicle = "CPC_ME_I_REB_soldier_AMG";
 						rank = "CORPORAL";
-						position[] = {5,0,0};
+						position[] = {4,0,0};
 					};
 					class Unit3
 					{
 						side = 2;
 						vehicle = "CPC_ME_I_REB_soldier_3";
 						rank = "PRIVATE";
-						position[] = {7,0,0};
+						position[] = {6,0,0};
 					};
 				};
 				class CPC_I_REB_SniperTeam
@@ -1599,14 +1599,14 @@ class cfgGroups
 						side = 2;
 						vehicle = "CPC_ME_I_REB_soldier_M";
 						rank = "SERGEANT";
-						position[] = {0,5,0};
+						position[] = {0,2,0};
 					};
 					class Unit1
 					{
 						side = 2;
 						vehicle = "CPC_ME_I_REB_soldier_M";
 						rank = "SERGEANT";
-						position[] = {3,0,0};
+						position[] = {2,0,0};
 					};
 				};
 			};
