@@ -29,6 +29,13 @@ class CfgPatches {
 		requiredVersion = 0.1;
 		requiredAddons[] = {};
 	};
+	class CPC_Factions_CrossAddonPatch
+	{
+		units[] = {};
+		weapons[] = {};
+		requiredVersion = 0.1;
+		requiredAddons[] = {};
+	};
 };
 
 

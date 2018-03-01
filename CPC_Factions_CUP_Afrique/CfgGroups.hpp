@@ -1264,4 +1264,239 @@ class cfgGroups
             };
         };
     };
+	class Indep
+	{
+		class CPC_I_Pirate
+		{
+			name = "Pirates";
+			class Infantry
+			{
+				name = "Infantry";
+				class CPC_I_Pirate_InfantrySquad
+				{
+					name = "Infantry Squad";
+					icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+					faction = "CPC_I_Pirate"; side = 2;
+					rarityGroup = 0.7;
+					class Unit0
+					{
+						side = 2;
+						vehicle = "CPC_Afrique_I_pirate_soldier_TL";
+						rank = "LIEUTENANT";
+						position[] = {0,2,0};
+					};
+					class Unit1
+					{
+						side = 2;
+						vehicle = "CPC_Afrique_I_pirate_soldier_MG";
+						rank = "SERGEANT";
+						position[] = {2,0,0};
+					};
+					class Unit2
+					{
+						side = 2;
+						vehicle = "CPC_Afrique_I_pirate_soldier_AT";
+						rank = "CORPORAL";
+						position[] = {4,0,0};
+					};
+					class Unit3
+					{
+						side = 2;
+						vehicle = "CPC_Afrique_I_pirate_soldier_GL";
+						rank = "CORPORAL";
+						position[] = {6,0,0};
+					};
+					class Unit4
+					{
+						side = 2;
+						vehicle = "CPC_Afrique_I_pirate_soldier_1";
+						rank = "CORPORAL";
+						position[] = {8,0,0};
+					};
+					class Unit5
+					{
+						side = 2;
+						vehicle = "CPC_Afrique_I_pirate_soldier_2";
+						rank = "CORPORAL";
+						position[] = {2,-2,0};
+					};
+					class Unit6
+					{
+						side = 2;
+						vehicle = "CPC_Afrique_I_pirate_soldier_3";
+						rank = "PRIVATE";
+						position[] = {4,-2,0};
+					};
+					class Unit7
+					{
+						side = 2;
+						vehicle = "CPC_Afrique_I_pirate_soldier_AR";
+						rank = "PRIVATE";
+						position[] = {6,-2,0};
+					};
+					class Unit8
+					{
+						side = 2;
+						vehicle = "CPC_ME_I_REB_soldier_1";
+						rank = "PRIVATE";
+						position[] = {8,-2,0};
+					};
+				};
+				class CPC_I_Pirate_InfantryPatrol
+				{
+					name = "Infantry Patrol";
+					icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+					faction = "CPC_I_Pirate"; side = 2;
+					rarityGroup = 0.7;
+					class Unit0
+					{
+						side = 2;
+						vehicle = "CPC_Afrique_I_pirate_soldier_TL";
+						rank = "CORPORAL";
+						position[] = {0,2,0};
+					};
+					class Unit1
+					{
+						side = 2;
+						vehicle = "CPC_Afrique_I_pirate_soldier_2";
+						rank = "PRIVATE";
+						position[] = {2,0,0};
+					};
+					class Unit2
+					{
+						side = 2;
+						vehicle = "CPC_Afrique_I_pirate_soldier_AR";
+						rank = "PRIVATE";
+						position[] = {4,0,0};
+					};
+				};
+				class CPC_I_Pirate_InfantrySentry
+				{
+					name = "Infantry Sentry";
+					icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+					faction = "CPC_I_Pirate"; side = 2;
+					rarityGroup = 0.7;
+					class Unit0
+					{
+						side = 2;
+						vehicle = "CPC_Afrique_I_pirate_soldier_1";
+						rank = "CORPORAL";
+						position[] = {0,2,0};
+					};
+					class Unit1
+					{
+						side = 2;
+						vehicle = "CPC_Afrique_I_pirate_soldier_3";
+						rank = "PRIVATE";
+						position[] = {2,0,0};
+					};
+				};
+				class CPC_I_Pirate_InfantrySection
+				{
+					name = "Infantry Section";
+					icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+					faction = "CPC_I_Pirate"; side = 2;
+					rarityGroup = 0.2;
+					class Unit0
+					{
+						side = 2;
+						vehicle = "CPC_Afrique_I_pirate_soldier_TL";
+						rank = "CORPORAL";
+						position[] = {0,2,0};
+					};
+					class Unit1
+					{
+						side = 2;
+						vehicle = "CPC_Afrique_I_pirate_soldier_MG";
+						rank = "CORPORAL";
+						position[] = {2,0,0};
+					};
+					class Unit2
+					{
+						side = 2;
+						vehicle = "CPC_Afrique_I_pirate_soldier_2";
+						rank = "PRIVATE";
+						position[] = {4,0,0};
+					};
+					class Unit3
+					{
+						side = 2;
+						vehicle = "CPC_Afrique_I_pirate_soldier_1";
+						rank = "PRIVATE";
+						position[] = {6,0,0};
+					};
+				};
+				class CPC_I_Pirate_InfantrySectionAT
+				{
+					name = "Infantry Section (AT)";
+					icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+					faction = "CPC_I_Pirate"; side = 2;
+					rarityGroup = 0.2;
+					class Unit0
+					{
+						side = 2;
+						vehicle = "CPC_Afrique_I_pirate_soldier_TL";
+						rank = "SERGEANT";
+						position[] = {0,2,0};
+					};
+					class Unit1
+					{
+						side = 2;
+						vehicle = "CPC_Afrique_I_pirate_soldier_AT";
+						rank = "CORPORAL";
+						position[] = {2,0,0};
+					};
+					class Unit2
+					{
+						side = 2;
+						vehicle = "CPC_Afrique_I_pirate_soldier_AT";
+						rank = "CORPORAL";
+						position[] = {4,0,0};
+					};
+					class Unit3
+					{
+						side = 2;
+						vehicle = "CPC_Afrique_I_pirate_soldier_2";
+						rank = "PRIVATE";
+						position[] = {6,0,0};
+					};
+				};
+				class CPC_I_Pirate_InfantrySectionMG
+				{
+					name = "Infantry Section (MG)";
+					icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+					faction = "CPC_I_Pirate"; side = 2;
+					rarityGroup = 0.2;
+					class Unit0
+					{
+						side = 2;
+						vehicle = "CPC_Afrique_I_pirate_soldier_TL";
+						rank = "CORPORAL";
+						position[] = {0,2,0};
+					};
+					class Unit1
+					{
+						side = 2;
+						vehicle = "CPC_Afrique_I_pirate_soldier_MG";
+						rank = "CORPORAL";
+						position[] = {2,0,0};
+					};
+					class Unit2
+					{
+						side = 2;
+						vehicle = "CPC_Afrique_I_pirate_soldier_AR";
+						rank = "CORPORAL";
+						position[] = {4,0,0};
+					};
+					class Unit3
+					{
+						side = 2;
+						vehicle = "CPC_Afrique_I_pirate_soldier_1";
+						rank = "PRIVATE";
+						position[] = {6,0,0};
+					};
+				};
+			};
+		};
+	};
 };
