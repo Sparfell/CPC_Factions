@@ -82,6 +82,8 @@ class CfgPatches
 			"A3_Characters_F",
 			"A3_Boat_F_Boat_Transport_01",
 			"rhsgref_c_weapons",
+			"rhsgref_c_troops",
+			"rhsgref_c_vehicles_ret",
 			"rhsusf_c_a2port_car",
 			"rhsusf_c_hmmwv",
 			"rhsusf_c_m1117",

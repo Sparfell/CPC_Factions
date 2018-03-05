@@ -304,6 +304,8 @@
 		crew = "CPC_JUN_B_AMIL_soldier_crew";
         typicalCargo[] = {"CPC_JUN_B_AMIL_soldier_1","CPC_JUN_B_AMIL_soldier_1","CPC_JUN_B_AMIL_soldier_LAT","CPC_JUN_B_AMIL_soldier_TL"};
 		editorSubcategory = "rhs_EdSubcat_apc";
+		hiddenSelectionsTextures[] = {"rhsusf\addons\rhsusf_m113\data_90s\m113a3_01_od_h_90s_co.paa","rhsusf\addons\rhsusf_m113\data_90s\m113a3_02_od_h_90s_co.paa","rhsusf\addons\rhsusf_m113\data_new\m113a3_03_wd_co.paa","rhsusf\addons\rhsusf_m113\data_new\m113a3_int03_wd_co.paa","rhsusf\addons\rhsusf_m113\data_new\m23_pintle_wd_co.paa"};
+		textureList[] = {};
 		VEHICLECARGOBIGAMIL
 	};
 	class rhsgref_hidf_m113a3_m2;
@@ -317,6 +319,8 @@
 		crew = "CPC_JUN_B_AMIL_soldier_crew";
         typicalCargo[] = {"CPC_JUN_B_AMIL_soldier_1","CPC_JUN_B_AMIL_soldier_1","CPC_JUN_B_AMIL_soldier_LAT","CPC_JUN_B_AMIL_soldier_TL"};
 		editorSubcategory = "rhs_EdSubcat_apc";
+		hiddenSelectionsTextures[] = {"rhsusf\addons\rhsusf_m113\data_90s\m113a3_01_od_h_90s_co.paa","rhsusf\addons\rhsusf_m113\data_90s\m113a3_02_od_h_90s_co.paa","rhsusf\addons\rhsusf_m113\data_new\m113a3_03_wd_co.paa","rhsusf\addons\rhsusf_m113\data_new\m113a3_int03_wd_co.paa","rhsusf\addons\rhsusf_m113\data_new\m23_pintle_wd_co.paa"};
+		textureList[] = {};
 		VEHICLECARGOBIGAMIL
 	};
 	

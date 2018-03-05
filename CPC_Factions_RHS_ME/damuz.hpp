@@ -259,6 +259,7 @@
 		crew = "CPC_ME_B_DAM_soldier_crew";
         typicalCargo[] = {"CPC_ME_B_DAM_soldier_1","CPC_ME_B_DAM_soldier_1","CPC_ME_B_DAM_soldier_LAT","CPC_ME_B_DAM_soldier_TL"};
 		HiddenSelectionsTextures[] = {"rhsusf\addons\rhsusf_m113\data_new\m113a3_01_d_l_co.paa","rhsusf\addons\rhsusf_m113\data_new\m113a3_02_d_l_co.paa","rhsusf\addons\rhsusf_m113\data_new\m113a3_03_d_co.paa","rhsusf\addons\rhsusf_m113\data_new\m113a3_int03_d_co.paa"};
+		textureList[] = {};
 		editorSubcategory = "rhs_EdSubcat_apc";
 		VEHICLECARGOBIGDAM
 	};
@@ -273,6 +274,7 @@
 		crew = "CPC_ME_B_DAM_soldier_crew";
         typicalCargo[] = {"CPC_ME_B_DAM_soldier_1","CPC_ME_B_DAM_soldier_1","CPC_ME_B_DAM_soldier_LAT","CPC_ME_B_DAM_soldier_TL"};
 		HiddenSelectionsTextures[] = {"rhsusf\addons\rhsusf_m113\data_new\m113a3_01_d_h_co.paa","rhsusf\addons\rhsusf_m113\data_new\m113a3_02_sup_d_co.paa","rhsusf\addons\rhsusf_m113\data_new\m113a3_03_d_co.paa","rhsusf\addons\rhsusf_m113\data_new\m113a3_int03_d_co.paa","rhsusf\addons\rhsusf_m113\data_new\m23_pintle_d_co.paa"};
+		textureList[] = {};
 		editorSubcategory = "rhs_EdSubcat_apc";
 		VEHICLECARGOBIGDAM
 	};
