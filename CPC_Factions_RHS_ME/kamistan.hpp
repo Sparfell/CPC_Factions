@@ -299,7 +299,7 @@
 				{
 					class CommanderOptics: CommanderOptics
 					{
-						gunnerType="rhsgref_ins_crew";
+						gunnerType="CPC_ME_O_KAM_soldier_crew";
 					};
 					class CommanderMG: CommanderMG {};
 				};

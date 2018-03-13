@@ -135,7 +135,13 @@ class CfgPatches
 			"CPC_ME_I_REB_D30_AT",
 			"CPC_ME_I_REB_2b14_82mm"
 		};
-		weapons[] = {};
+		weapons[] = 
+		{
+			"CPC_ME_Uniform_M93_sand_1",
+			"CPC_ME_Uniform_M93_sand_2",
+			"CPC_ME_Uniform_M93_sand_3",
+			"CPC_ME_Uniform_M93_sand_4"
+		};
 		requiredVersion = 0.1;
 		requiredAddons[] = 
 		{
