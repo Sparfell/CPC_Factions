@@ -20,20 +20,23 @@
 		RespawnItems[] = {"FirstAidKit"};
 		icon = "iconMan";
 		#include "\CPC\Factions\hitpoints_uniform_none.h"
-		linkedItems[] = {"rhssaf_vest_md99_md2camo_rifleman","H_Bandanna_khk","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"rhssaf_vest_md99_md2camo_rifleman","H_Bandanna_khk","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"rhssaf_vest_md99_md2camo_rifleman","CPC_JUN_fieldcap","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"rhssaf_vest_md99_md2camo_rifleman","CPC_JUN_fieldcap","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		headgearList[] =
 		{
-			"H_Bandanna_khk",1,
-			"H_Bandanna_gry",1,
-			"H_Bandanna_cbr",1,
-			"H_Bandanna_sgg",1,
-			"H_Bandanna_camo",1,
-			"rhssaf_bandana_md2camo",1,
-			"rhssaf_bandana_smb",1,
-			"H_Booniehat_khk",1,
-			"H_Booniehat_oli",1,
-			"rhs_fieldcap_digi2",1,
+			"CPC_JUN_fieldcap",0.9,
+			"CPC_JUN_fieldcap",0.9,
+			"CPC_JUN_fieldcap",0.9,
+			"CPC_JUN_fieldcap",0.9,
+			"H_Bandanna_khk",0.5,
+			"H_Bandanna_gry",0.5,
+			"H_Bandanna_cbr",0.5,
+			"H_Bandanna_sgg",0.5,
+			"H_Bandanna_camo",0.5,
+			"rhssaf_bandana_md2camo",0.5,
+			"rhssaf_bandana_smb",0.5,
+			"H_Booniehat_khk",0.5,
+			"H_Booniehat_oli",0.5,
 			"H_Hat_Safari_olive_F",0.1,
 			"H_HeadBandage_stained_F",0.1,
 			"H_HeadBandage_bloody_F",0.1
@@ -66,8 +69,8 @@
 		displayName = "Rifleman (KAR98K)";
 		scope = 2;
 		scopeCurator = 2;
-		linkedItems[] = {"rhssaf_vest_md99_woodland","H_Bandanna_khk","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"rhssaf_vest_md99_woodland","H_Bandanna_khk","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"rhssaf_vest_md99_woodland","CPC_JUN_fieldcap","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"rhssaf_vest_md99_woodland","CPC_JUN_fieldcap","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		weapons[] = {"rhs_weap_kar98k","Throw","Put"};
 		respawnWeapons[] = {"rhs_weap_kar98k","Throw","Put"};
 		magazines[] = {"rhsgref_5Rnd_792x57_kar98k","rhsgref_5Rnd_792x57_kar98k","rhsgref_5Rnd_792x57_kar98k","rhsgref_5Rnd_792x57_kar98k","rhsgref_5Rnd_792x57_kar98k","rhsgref_5Rnd_792x57_kar98k","rhsgref_5Rnd_792x57_kar98k","rhsgref_5Rnd_792x57_kar98k","rhsgref_5Rnd_792x57_kar98k","rhsgref_5Rnd_792x57_kar98k","SmokeShell","SmokeShell","rhs_mag_rgd5","rhs_mag_rgd5"};
@@ -191,8 +194,8 @@
 		scope = 2;
 		scopeCurator = 2;
 		icon = "iconManLeader";
-		linkedItems[] = {"rhssaf_vest_md99_woodland_rifleman_radio","H_Bandanna_khk","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"rhssaf_vest_md99_woodland_rifleman_radio","H_Bandanna_khk","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"rhssaf_vest_md99_woodland_rifleman_radio","CPC_JUN_fieldcap","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"rhssaf_vest_md99_woodland_rifleman_radio","CPC_JUN_fieldcap","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		weapons[] = {"rhs_weap_akms","Binocular","Throw","Put"};
 		respawnWeapons[] = {"rhs_weap_akms","Binocular","Throw","Put"};
 		magazines[] = {"rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","SmokeShell","SmokeShell","rhs_mag_rgd5","rhs_mag_rgd5"};
@@ -224,6 +227,173 @@
 		crew = "CPC_JUN_I_AGUE_soldier_1";
         typicalCargo[] = {"CPC_JUN_I_AGUE_soldier_2"};
 		VEHICLECARGOREB
+	};
+	class rhsgref_ins_uaz;
+	class CPC_JUN_I_AGUE_uaz : rhsgref_ins_uaz
+	{
+		side = 2;
+		scope = 2;
+		dlc = "CPC_Factions_RHS";
+		author = "CPC Faction";
+		faction = "CPC_I_AGUE";
+		crew = "CPC_JUN_I_AGUE_soldier_1";
+        typicalCargo[] = {"CPC_JUN_I_AGUE_soldier_2","CPC_JUN_I_AGUE_soldier_3","CPC_JUN_I_AGUE_soldier_LAT","CPC_JUN_I_AGUE_soldier_TL"};
+		hiddenSelectionsTextures[] = {"rhsafrf\addons\rhs_a2port_car\uaz\data\uaz_main_ind_co.paa"};
+		editorPreview = "\A3\EditorPreviews_F\Data\CfgVehicles\Default\car.jpg";
+		VEHICLECARGOREB
+	};
+	class rhsgref_ins_uaz_open;
+	class CPC_JUN_I_AGUE_uaz_open : rhsgref_ins_uaz_open
+	{
+		side = 2;
+		scope = 2;
+		dlc = "CPC_Factions_RHS";
+		author = "CPC Faction";
+		faction = "CPC_I_AGUE";
+		crew = "CPC_JUN_I_AGUE_soldier_2";
+        typicalCargo[] = {"CPC_JUN_I_AGUE_soldier_2","CPC_JUN_I_AGUE_soldier_3","CPC_JUN_I_AGUE_soldier_LAT","CPC_JUN_I_AGUE_soldier_TL"};
+		hiddenSelectionsTextures[] = {"rhsafrf\addons\rhs_a2port_car\uaz\data\uaz_main_ind_co.paa"};
+		editorPreview = "\A3\EditorPreviews_F\Data\CfgVehicles\Default\car.jpg";
+		VEHICLECARGOREB
+	};
+	class CPC_JUN_I_AGUE_uaz_dshkm : RHS_UAZ_DShKM_Base
+	{
+		side = 2;
+		scope = 2;
+		dlc = "CPC_Factions_RHS";
+		author = "CPC Faction";
+		faction = "CPC_I_AGUE";
+		crew = "CPC_JUN_I_AGUE_soldier_1";
+        typicalCargo[] = {"CPC_JUN_I_AGUE_soldier_2","CPC_JUN_I_AGUE_soldier_3","CPC_JUN_I_AGUE_soldier_LAT","CPC_JUN_I_AGUE_soldier_TL"};
+		hiddenSelectionsTextures[] = {"rhsafrf\addons\rhs_a2port_car\uaz\data\uaz_main_ind_co.paa","rhsafrf\addons\rhs_a2port_car\uaz\data\uaz_mount_001_co.paa"};
+		rhs_decalParameters[] = {"['Number', cDecals4CarsNumberPlaces, 'Default']"};
+		class AnimationSources: AnimationSources
+		{
+			class light_hide
+			{
+				source = "user";
+				mass = 1;
+				initPhase = 1;
+				animPeriod = 1e-011;
+				displayName = "hide light covers";
+			};
+		};
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret {gunnerType="CPC_JUN_I_AGUE_soldier_3";};
+			class CargoTurret_01: CargoTurret_01 {};
+		};
+		editorPreview = "\A3\EditorPreviews_F\Data\CfgVehicles\Default\car.jpg";
+		VEHICLECARGOREB
+	};
+	class RHS_UAZ_SPG9_Base: RHS_UAZ_DShKM_Base{};
+	class CPC_JUN_I_AGUE_uaz_spg9 : RHS_UAZ_SPG9_Base
+	{
+		side = 2;
+		scope = 2;
+		dlc = "CPC_Factions_RHS";
+		author = "CPC Faction";
+		faction = "CPC_I_AGUE";
+		crew = "CPC_JUN_I_AGUE_soldier_3";
+        typicalCargo[] = {"CPC_JUN_I_AGUE_soldier_2","CPC_JUN_I_AGUE_soldier_3","CPC_JUN_I_AGUE_soldier_LAT","CPC_JUN_I_AGUE_soldier_TL"};
+		hiddenSelectionsTextures[] = {"rhsafrf\addons\rhs_a2port_car\uaz\data\uaz_main_ind_co.paa"};
+		rhs_decalParameters[] = {"['Number', cDecals4CarsNumberPlaces, 'Default']"};
+		class AnimationSources: AnimationSources
+		{
+			class light_hide
+			{
+				source = "user";
+				mass = 1;
+				initPhase = 1;
+				animPeriod = 1e-011;
+				displayName = "hide light covers";
+			};
+		};
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret {gunnerType="CPC_JUN_I_AGUE_soldier_2";};
+			class CargoTurret_01: CargoTurret_01 {};
+		};
+		editorPreview = "\A3\EditorPreviews_F\Data\CfgVehicles\Default\car.jpg";
+		VEHICLECARGOREB
+	};
+	class rhsgref_ins_ural;
+	class CPC_JUN_I_AGUE_ural : rhsgref_ins_ural
+	{
+		side = 2;
+		scope = 2;
+		dlc = "CPC_Factions_RHS";
+		author = "CPC Faction";
+		faction = "CPC_I_AGUE";
+		displayName = "Ural-4320";
+		crew = "CPC_JUN_I_AGUE_soldier_1";
+        typicalCargo[] = {"CPC_JUN_I_AGUE_soldier_2","CPC_JUN_I_AGUE_soldier_3","CPC_JUN_I_AGUE_soldier_LAT","CPC_JUN_I_AGUE_soldier_TL"};
+		hiddenSelectionsTextures[] = {"rhsafrf\addons\rhs_a2port_car\ural\data\ural_kabina_khk_co.paa","rhsafrf\addons\rhs_a2port_car\ural\data\ural_plachta_co.paa","rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa"};
+		VEHICLECARGOREB
+	};
+	class CPC_JUN_I_AGUE_ural_blue : CPC_JUN_I_AGUE_ural
+	{
+		scope = 2;
+		dlc = "CPC_Factions_RHS";
+		author = "CPC Faction";
+		displayName = "Ural-4320 (Blue)";
+		hiddenSelectionsTextures[] = {"rhsafrf\addons\rhs_a2port_car\ural\data\ural_kabina_civil_co.paa","rhsafrf\addons\rhs_a2port_car\ural\data\ural_plachta_civil_co.paa","rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa"};
+	};
+	class CPC_JUN_I_AGUE_ural_worker : CPC_JUN_I_AGUE_ural
+	{
+		scope = 2;
+		dlc = "CPC_Factions_RHS";
+		author = "CPC Faction";
+		displayName = "Ural-4320 (Worker)";
+		hiddenSelectionsTextures[] = {"rhsafrf\addons\rhs_a2port_car\ural\data\ural_kabina_civ2_co.paa","rhsafrf\addons\rhs_a2port_car\ural\data\ural_plachta_civil_co.paa","rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa"};
+	};
+	class CPC_JUN_I_AGUE_ural_yellow : CPC_JUN_I_AGUE_ural
+	{
+		scope = 2;
+		dlc = "CPC_Factions_RHS";
+		author = "CPC Faction";
+		displayName = "Ural-4320 (Yellow)";
+		hiddenSelectionsTextures[] = {"rhsafrf\addons\rhs_a2port_car\ural\data\ural_kabina_civ1_co.paa","rhsafrf\addons\rhs_a2port_car\ural\data\ural_plachta_civ1_co.paa","rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa"};
+	};
+	class rhsgref_ins_ural_open;
+	class CPC_JUN_I_AGUE_ural_open : rhsgref_ins_ural_open
+	{
+		side = 2;
+		scope = 2;
+		dlc = "CPC_Factions_RHS";
+		author = "CPC Faction";
+		faction = "CPC_I_AGUE";
+		crew = "CPC_JUN_I_AGUE_soldier_2";
+        typicalCargo[] = {"CPC_JUN_I_AGUE_soldier_2","CPC_JUN_I_AGUE_soldier_3","CPC_JUN_I_AGUE_soldier_LAT","CPC_JUN_I_AGUE_soldier_TL"};
+		hiddenSelectionsTextures[] = {"rhsafrf\addons\rhs_a2port_car\ural\data\ural_kabina_khk_co.paa","rhsafrf\addons\rhs_a2port_car\ural\data\ural_open_co.paa","rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa"};
+		VEHICLECARGOREB
+	};
+	class CPC_JUN_I_AGUE_ural_open_blue : CPC_JUN_I_AGUE_ural_open
+	{
+		scope = 2;
+		dlc = "CPC_Factions_RHS";
+		author = "CPC Faction";
+		displayName = "Ural-4320 (Blue/Open)";
+		model = "\rhsafrf\addons\rhs_a2port_car\Ural\Ural_open.p3d";
+		hiddenSelectionsTextures[] = {"rhsafrf\addons\rhs_a2port_car\ural\data\ural_kabina_civil_co.paa","rhsafrf\addons\rhs_a2port_car\ural\data\ural_plachta_civil_co.paa","rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa"};
+	};
+	class CPC_JUN_I_AGUE_ural_open_worker : CPC_JUN_I_AGUE_ural_open
+	{
+		scope = 2;
+		dlc = "CPC_Factions_RHS";
+		author = "CPC Faction";
+		displayName = "Ural-4320 (Worker/Open)";
+		model = "\rhsafrf\addons\rhs_a2port_car\Ural\Ural_open.p3d";
+		hiddenSelectionsTextures[] = {"rhsafrf\addons\rhs_a2port_car\ural\data\ural_kabina_civ2_co.paa","rhsafrf\addons\rhs_a2port_car\ural\data\ural_plachta_civil_co.paa","rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa"};
+	};
+	class CPC_JUN_I_AGUE_ural_open_yellow : CPC_JUN_I_AGUE_ural_open
+	{
+		scope = 2;
+		dlc = "CPC_Factions_RHS";
+		author = "CPC Faction";
+		displayName = "Ural-4320 (Yellow/Open)";
+		model = "\rhsafrf\addons\rhs_a2port_car\Ural\Ural_open.p3d";
+		hiddenSelectionsTextures[] = {"rhsafrf\addons\rhs_a2port_car\ural\data\ural_kabina_civ1_co.paa","rhsafrf\addons\rhs_a2port_car\ural\data\ural_plachta_civ1_co.paa","rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa"};
 	};
 	
 	// Statics

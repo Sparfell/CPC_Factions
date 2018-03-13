@@ -20,6 +20,17 @@ class cfgWeapons
 			mass = 40;
 		};
 	};
+	// heagears
+	class rhs_fieldcap_digi2;
+	class CPC_JUN_fieldcap: rhs_fieldcap_digi2
+	{
+		scope = 2;
+		scopeArsenal = 2;
+		dlc = "CPC_Factions_RHS";
+		author = "CPC Faction";
+		displayName = "Field Cap Olive (Alt)";
+		hiddenSelectionsTextures[] = {"\CPC\Factions\CPC_Factions_RHS_Jungle\data\fieldcapalt_green1_co"};
+	};
 	// Weapons
 	class srifle_DMR_06_olive_F;
 	class CPC_JUN_srifle_DMR_06_olive_KHS: srifle_DMR_06_olive_F

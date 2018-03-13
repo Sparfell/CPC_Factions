@@ -20,6 +20,18 @@ class CfgPatches
 			"CPC_JUN_I_AGUE_soldier_TL",
 			"CPC_JUN_I_AGUE_soldier_ENG",
 			"CPC_JUN_I_AGUE_ZODIAC",
+			"CPC_JUN_I_AGUE_uaz",
+			"CPC_JUN_I_AGUE_uaz_open",
+			"CPC_JUN_I_AGUE_uaz_dshkm",
+			"CPC_JUN_I_AGUE_uaz_spg9",
+			"CPC_JUN_I_AGUE_ural",
+			"CPC_JUN_I_AGUE_ural_blue",
+			"CPC_JUN_I_AGUE_ural_worker",
+			"CPC_JUN_I_AGUE_ural_yellow",
+			"CPC_JUN_I_AGUE_ural_open",
+			"CPC_JUN_I_AGUE_ural_open_blue",
+			"CPC_JUN_I_AGUE_ural_open_worker",
+			"CPC_JUN_I_AGUE_ural_open_yellow",
 			"CPC_JUN_I_AGUE_DSHKM",
 			"CPC_JUN_I_AGUE_DSHKM_MiniTriPod",
 			"CPC_JUN_I_AGUE_M2",
@@ -74,7 +86,10 @@ class CfgPatches
 			"CPC_JUN_B_AMIL_UH60M_MEV2",
 			"CPC_JUN_B_AMIL_AH1Z"
 		};
-		weapons[] = {};
+		weapons[] = 
+		{
+			"CPC_JUN_fieldcap"
+		};
 		requiredVersion = 0.1;
 		requiredAddons[] = 
 		{

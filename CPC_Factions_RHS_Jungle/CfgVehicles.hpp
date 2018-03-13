@@ -371,6 +371,20 @@ class CfgVehicles
 		class AnimationSources;
 	};
 	class Wheeled_APC_F: car_F {};
+	class Offroad_01_base_F: Car_F{};
+	class RHS_UAZ_Base: Offroad_01_base_F
+	{
+		class Turrets: Turrets{};
+	};
+	class RHS_UAZ_DShKM_Base: RHS_UAZ_Base
+	{
+		class CargoTurret;
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret{};
+			class CargoTurret_01: CargoTurret{};
+		};
+	};
 #include "guerilla.hpp"
 #include "army.hpp"
 
