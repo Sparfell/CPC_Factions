@@ -568,6 +568,20 @@
 		hiddenSelectionsTextures[] = {"rhsafrf\addons\rhs_a2port_car_camo\data\ural_kabina_sand_co.paa","rhsafrf\addons\rhs_a2port_car_camo\data\ural_open_sand_co.paa","rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa"};
 		VEHICLECARGOSMALLKAM
 	};
+	class RHS_Ural_Fuel_MSV_01;
+	class CPC_ME_O_KAM_ural_fuel : RHS_Ural_Fuel_MSV_01
+	{
+		side = 0;
+		scope = 2;
+		dlc = "CPC_Factions_RHS";
+		author = "CPC Faction";
+		faction = "CPC_O_KAM";
+		crew = "CPC_ME_O_KAM_soldier_light";
+        typicalCargo[] = {"CPC_ME_O_KAM_soldier_1","CPC_ME_O_KAM_soldier_1","CPC_ME_O_KAM_soldier_LAT","CPC_ME_O_KAM_soldier_TL"};
+		rhs_decalParameters[] = {"['Number', cDecals4CarsNumberPlaces, 'Iraqi']"};
+		hiddenSelectionsTextures[] = {"rhsafrf\addons\rhs_a2port_car_camo\data\ural_kabina_sand_co.paa","rhsafrf\addons\rhs_a2port_car_camo\data\ural_open_sand_co.paa","rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa","rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa","rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa","rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa","rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa","rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa","rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa","rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa","rhsafrf\addons\rhs_a2port_car_camo\data\ural_fuel_sand_co.paa"};
+		VEHICLECARGOSMALLKAM
+	};
 	class rhsgref_ins_uaz;
 	class CPC_ME_O_KAM_uaz : rhsgref_ins_uaz
 	{

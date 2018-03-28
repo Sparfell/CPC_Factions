@@ -413,6 +413,45 @@
 		};
 		VEHICLECARGOBIGDAM
 	};
+	class CPC_ME_B_DAM_ural : rhsgref_ins_ural
+	{
+		side = 1;
+		scope = 2;
+		dlc = "CPC_Factions_RHS";
+		author = "CPC Faction";
+		faction = "CPC_B_DAM";
+		crew = "CPC_ME_B_DAM_soldier_1";
+        typicalCargo[] = {"CPC_ME_B_DAM_soldier_1","CPC_ME_B_DAM_soldier_1","CPC_ME_B_DAM_soldier_LAT","CPC_ME_B_DAM_soldier_TL"};
+		rhs_decalParameters[] = {"['Number', cDecals4CarsNumberPlaces, 'Handpaint']"};
+		hiddenSelectionsTextures[] = {"rhsafrf\addons\rhs_a2port_car_camo\data\ural_kabina_sand_co.paa","rhsafrf\addons\rhs_a2port_car_camo\data\ural_plachta_sand_co.paa","rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa"};
+		VEHICLECARGOSMALLKAM
+	};
+	class CPC_ME_B_DAM_ural_open : rhsgref_ins_ural_open
+	{
+		side = 1;
+		scope = 2;
+		dlc = "CPC_Factions_RHS";
+		author = "CPC Faction";
+		faction = "CPC_B_DAM";
+		crew = "CPC_ME_B_DAM_soldier_1";
+        typicalCargo[] = {"CPC_ME_B_DAM_soldier_1","CPC_ME_B_DAM_soldier_1","CPC_ME_B_DAM_soldier_LAT","CPC_ME_B_DAM_soldier_TL"};
+		rhs_decalParameters[] = {"['Number', cDecals4CarsNumberPlaces, 'Handpaint']"};
+		hiddenSelectionsTextures[] = {"rhsafrf\addons\rhs_a2port_car_camo\data\ural_kabina_sand_co.paa","rhsafrf\addons\rhs_a2port_car_camo\data\ural_open_sand_co.paa","rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa"};
+		VEHICLECARGOSMALLKAM
+	};
+	class CPC_ME_B_DAM_ural_fuel : RHS_Ural_Fuel_MSV_01
+	{
+		side = 1;
+		scope = 2;
+		dlc = "CPC_Factions_RHS";
+		author = "CPC Faction";
+		faction = "CPC_B_DAM";
+		crew = "CPC_ME_B_DAM_soldier_1";
+        typicalCargo[] = {"CPC_ME_B_DAM_soldier_1","CPC_ME_B_DAM_soldier_1","CPC_ME_B_DAM_soldier_LAT","CPC_ME_B_DAM_soldier_TL"};
+		rhs_decalParameters[] = {"['Number', cDecals4CarsNumberPlaces, 'Handpaint']"};
+		hiddenSelectionsTextures[] = {"rhsafrf\addons\rhs_a2port_car_camo\data\ural_kabina_sand_co.paa","rhsafrf\addons\rhs_a2port_car_camo\data\ural_open_sand_co.paa","rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa","rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa","rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa","rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa","rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa","rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa","rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa","rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa","rhsafrf\addons\rhs_a2port_car_camo\data\ural_fuel_sand_co.paa"};
+		VEHICLECARGOSMALLKAM
+	};
 	
 	// boats
 	class CPC_ME_B_DAM_ZODIAC : B_Boat_Transport_01_F
